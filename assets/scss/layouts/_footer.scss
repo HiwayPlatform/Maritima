@@ -1,12 +1,11 @@
 .app-footer {
   @include animate-common-ty;
   background-color: $color-dark-gray;
-  padding: 35px 0;
-  text-align: left;
-
+  padding: 35px 20px;
   @include media-breakpoint-down(sm) {
-    text-align: center;
+    padding: 35px 20px;
   }
+  text-align: left;
 
   h5 {
     padding-bottom: 20px;
@@ -18,15 +17,9 @@
 
   .footer-logo {
     display: flex;
-    @include media-breakpoint-down(sm) {
-      flex-direction: column;
-    }
     img {
       width: 32.3px;
       height: auto;
-      @include media-breakpoint-down(sm) {
-        margin: 0 auto;
-      }
     }
     h5 {
       margin-top: 10px;
@@ -43,16 +36,27 @@
   }
   .footer-content{
     margin-top: 15px;
+
     .footer-left {
       padding-top: 10px;
     }
 
     .footer-left-about {
       flex: 1;
+      a {
+        padding: 0;
+        color: $color-light-black;
+        &:hover {
+          font-weight: bolder;
+        }
+      }
     }
 
     .footer-left-contact {
       flex: 1.9;
+      @include media-breakpoint-down(sm) {
+        flex: 1;
+      }
     }
 
     .footer-right-content{

@@ -64,7 +64,17 @@
 
 <script>
   export default {
-    name: "app-page-home-treatments"
+    name: "app-page-home-treatments",
+    props: {
+      categories: {
+        type: Array,
+        default: () => []
+      }
+    },
+    methods: {
+    },
+    mounted() {
+    }
   }
 </script>
 

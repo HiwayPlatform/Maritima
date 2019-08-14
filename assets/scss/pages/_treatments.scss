@@ -77,9 +77,6 @@
         max-width: 600px;
         margin: 0 auto;
 
-        @include media-breakpoint-down(md) {
-          flex-direction: column;
-        }
         .menubar-item {
           &.dental {
             flex: 1;
@@ -104,6 +101,7 @@
 
             @include media-breakpoint-down(md) {
               margin-top: 20px;
+              font-size: $font-size-small;
             }
 
             &::after {
@@ -135,11 +133,13 @@
     }
     .treatments-content-item {
       margin-top: 108px;
+      padding-bottom: 80px;
       background-color: $color-white;
       .item-image {
         img {
           width: 50.7px;
           height: auto;
+          animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
         }
       }
       .item-description {
@@ -149,6 +149,8 @@
         }
         h6 {
           font-size: $font-size-small;
+          font-family: Inconsolata;
+          font-weight: bold;
         }
         p {
           font-size: $font-size-small;
@@ -159,6 +161,11 @@
       }
       .item-button {
         margin-top: 15px;
+        position: absolute;
+        bottom: 0;
+        transform: translateX(-50%);
+        left: 50%;
+        width: 100%;
       }
     }
 
@@ -171,6 +178,7 @@
       &-image > img {
         width: 98px;
         margin: 0 auto;
+        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
       }
 
       &-description {
@@ -206,7 +214,7 @@
     text-align: center;
     .treatments-dental-esthetics-content {
       max-width: 800px;
-      margin:0 auto;
+      margin: 0 auto;
       margin-top: 80px;
     }
     .treatments-content-item {
@@ -225,7 +233,7 @@
       }
       .item-description {
         max-width: 275px;
-        margin:0 auto;
+        margin: 0 auto;
         h5 {
           margin-top: 22px;
           font-size: $font-size-x1-large;
@@ -258,6 +266,7 @@
       &-image > img {
         width: 98px;
         margin: 0 auto;
+        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
       }
 
       &-description {

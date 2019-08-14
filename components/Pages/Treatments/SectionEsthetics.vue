@@ -2,10 +2,12 @@
   <section class="treatments-content">
     <div class="container">
       <b-row v-if="treatments.length > 0">
-        <b-col lg="3" md="6" v-for="(treatment, index) in treatments" :key="index">
+        <b-col lg="3" md="6"
+               v-for="(treatment, index) in treatments"
+               :key="index">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/treatments/dental.svg"/>
+              <img src="~/assets/images/treatments/esthetics.svg"/>
             </div>
             <div class="item-description">
               <h5>{{treatment.title}}</h5>
@@ -30,7 +32,7 @@
 
 <script>
   export default {
-    name: "app-page-treatments-dental-content",
+    name: "app-page-treatments-esthetics-content",
     props: {
       treatments: {
         type: Array,

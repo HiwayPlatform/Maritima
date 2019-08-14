@@ -1,7 +1,7 @@
 <template>
   <div id="page_news" class="main">
     <app-page-news-header/>
-    <app-page-news-list/>
+    <app-page-news-list :newsList="newsList"/>
   </div>
 </template>
 
@@ -17,10 +17,19 @@
       AppPageNewsList
     },
     data() {
-      return {};
+      return {
+        newsList: []
+      };
+    },
+    methods: {
+      async loadData() {
+        const result = await this.$axios.$get('/news?page=1&size=6');
+        this.newsList = result.data;
+      }
     },
     mounted() {
       paintCommon();
+      this.loadData();
       this.$store.commit('background/default');
     },
     layout: 'default',

@@ -4,74 +4,32 @@
       <div class="shop-title">
         <h2>Shop our products</h2>
       </div>
-      <b-row>
-        <b-col lg="3" md="6">
+      <b-row v-if="products.length > 0">
+        <b-col lg="3" md="6" v-for="(product, index) of products" :key="index">
           <div class="shop-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/shop/product-piel.png"/>
+              <img :src="product.image"/>
             </div>
             <div class="item-description">
-              <p>Sensitive Skin Bio Floral Cleansing PIEL SENSIBLE</p>
+              <p>{{product.description}}</p>
             </div>
             <div class="item-price">
-              <p><span>32,75€</span>&nbsp;&nbsp;&nbsp;<strong>31,00€</strong></p>
+              <p><span>{{product.price}}</span>&nbsp;&nbsp;&nbsp;<strong>{{product.discount_price}}</strong></p>
             </div>
             <div class="item-button">
-              <a href="#" class="button-normal-round">Buy</a>
-            </div>
-          </div>
-        </b-col>
-        <b-col lg="3" md="6">
-          <div class="shop-content-item">
-            <div class="item-image">
-              <img src="~/assets/images/home/shop/product-cream.png"/>
-            </div>
-            <div class="item-description">
-              <p>Sensitive Skin Bio Floral Cleansing PIEL SENSIBLE</p>
-            </div>
-            <div class="item-price">
-              <p><span>32,75€</span>&nbsp;&nbsp;&nbsp;<strong>31,00€</strong></p>
-            </div>
-            <div class="item-button">
-              <a href="#" class="button-normal-round">Buy</a>
-            </div>
-          </div>
-        </b-col>
-        <b-col lg="3" md="6">
-          <div class="shop-content-item">
-            <div class="item-image">
-              <img src="~/assets/images/home/shop/product-silky.png"/>
-            </div>
-            <div class="item-description">
-              <p>Sensitive Skin Bio Floral Cleansing PIEL SENSIBLE</p>
-            </div>
-            <div class="item-price">
-              <p><span>32,75€</span>&nbsp;&nbsp;&nbsp;<strong>31,00€</strong></p>
-            </div>
-            <div class="item-button">
-              <a href="#" class="button-normal-round">Buy</a>
-            </div>
-          </div>
-        </b-col>
-        <b-col lg="3" md="6">
-          <div class="shop-content-item">
-            <div class="item-image">
-              <img src="~/assets/images/home/shop/product-cream.png"/>
-            </div>
-            <div class="item-description">
-              <p>Sensitive Skin Bio Floral Cleansing PIEL SENSIBLE</p>
-            </div>
-            <div class="item-price">
-              <p><span>32,75€</span>&nbsp;&nbsp;&nbsp;<strong>31,00€</strong></p>
-            </div>
-            <div class="item-button">
-              <a href="#" class="button-normal-round">Buy</a>
+              <a :href="product.purchase_link" class="button-normal-round">Buy</a>
             </div>
           </div>
         </b-col>
       </b-row>
+      <b-row v-else>
+        <b-col lg="3" md="6"><loading-spinner/></b-col>
+        <b-col lg="3" md="6"><loading-spinner/></b-col>
+        <b-col lg="3" md="6"><loading-spinner/></b-col>
+        <b-col lg="3" md="6"><loading-spinner/></b-col>
+      </b-row>
       <div class="shop-more">
-        <a href="#" class="button-extend-normal-round">Shop more</a>
+        <a href="https://webshop.dentalesthetics.es/" class="button-extend-normal-round">Shop more</a>
       </div>
     </div>
   </section>
@@ -79,7 +37,17 @@
 
 <script>
   export default {
-    name: "app-page-home-shop"
+    name: "app-page-home-shop",
+    props: {
+      products: {
+        type: Array,
+        default: () => []
+      }
+    },
+    methods: {
+    },
+    mounted() {
+    }
   }
 </script>
 

@@ -3,9 +3,9 @@
     <app-page-home-header/>
     <app-page-home-tenerife/>
     <app-page-home-about/>
-    <app-page-home-treatments/>
-    <app-page-home-shop/>
-    <app-page-home-news/>
+    <app-page-home-treatments :categories="categories"/>
+    <app-page-home-shop :products="products"/>
+    <app-page-home-news :news="news"/>
     <app-page-home-appointment/>
   </div>
 </template>
@@ -19,6 +19,7 @@
   import AppPageHomeShop from "../components/Pages/Home/SectionShop";
   import AppPageHomeNews from "../components/Pages/Home/SectionNews";
   import AppPageHomeAppointment from "../components/Pages/Home/SectionAppointment";
+
   export default {
     name: "app-page-about",
     components: {
@@ -31,15 +32,28 @@
       AppPageHomeAppointment
     },
     data() {
-      return {};
+      return {
+        products: [],
+        categories: [],
+        news: []
+      };
+    },
+    methods: {
+      async loadData() {
+        const result  = await this.$axios.$get('/home');
+        this.products = result.data.products;
+        this.categories = result.data.categories;
+        this.news = result.data.news;
+      }
     },
     mounted() {
       paintCommon();
+      this.loadData();
       this.$store.commit('background/default');
     },
-    layout: 'About',
+    layout: 'default',
     head: {
-      title: 'MDE Frontend Development',
+      title: 'Home',
       meta: [
         {
           hid: 'description',
@@ -51,6 +65,6 @@
   }
 </script>
 
-<style scoped>
+<style>
 
 </style>

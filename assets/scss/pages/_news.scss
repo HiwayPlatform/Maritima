@@ -37,7 +37,10 @@
       .news-image {
         width: 100%;
         height: 410px;
-        background: $color-app-third;
+        background-color: $color-app-third;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
       }
 
       .news-content-title {
@@ -72,11 +75,15 @@
       }
       .news-item {
         margin-top: 50px;
+        padding-bottom: 30px;
       }
       .news-image {
         width: 100%;
         height: 250px;
-        background: $color-app-third;
+        background-color: $color-app-third;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
       }
 
       .news-content-title {
@@ -96,6 +103,9 @@
           font-size: $font-size-x2-small;
           font-weight: bold;
           font-family: Inconsolata;
+          margin-top: 15px;
+          position: absolute;
+          bottom: 0;
         }
       }
     }
@@ -109,8 +119,11 @@
       &-image {
         height: 400px;
         max-width: 720px;
-        background: $color-app-third;
+        background-color: $color-app-third;
         margin: 0 auto;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
       }
       &-description {
         max-width: 720px;

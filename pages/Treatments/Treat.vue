@@ -1,7 +1,7 @@
 <template>
   <div id="page_treatments" class="main">
     <app-page-treatments-header :title="title"/>
-    <app-page-treatments-treat-content/>
+    <app-page-treatments-treat-content :treatment="treatment"/>
   </div>
 </template>
 
@@ -20,12 +20,41 @@
     },
     data() {
       return {
-        title: 'Title treatment'
+        title: '',
+        treatment: {}
       };
     },
+    methods: {
+      async loadData() {
+        if (this.$route.query.id) {
+          const result = await this.$axios.$get(`/treatments/?id=${this.$route.query.id}`);
+          this.treatment = result.data;
+          this.title = this.treatment.title;
+        }
+      }
+    },
+    computed: {
+      id() {
+        if (this.$route.query.id) {
+          return this.$route.query.id
+        }
+        return null;
+      }
+    },
+    watch: {
+      id() {
+        this.loadData()
+      },
+    },
     mounted() {
-      console.log(this.title);
       paintCommon();
+      this.loadData();
+      this.$bus.$on('set:title', (title) => {
+        this.title = title;
+      });
+    },
+    beforeDestroy() {
+      this.$bus.$off('set:title');
     },
     layout: 'default',
     head: {

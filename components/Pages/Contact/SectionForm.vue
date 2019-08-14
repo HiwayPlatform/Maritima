@@ -6,7 +6,7 @@
         <h1>Contact</h1>
       </div>
 
-      <b-form id="contact">
+      <b-form v-if="!emailSent" id="contact">
         <b-row>
           <b-col sm="6">
             <b-form-group label="First Name" label-for="first_name">
@@ -70,10 +70,16 @@
         </b-form-checkbox>
 
         <div class="view-more">
-          <a href="#" class="button-extend-large-round">Send</a>
+          <a href="#" class="button-extend-large-round" @click="sendEmail">Send</a>
         </div>
 
       </b-form>
+      <template v-else>
+         <div class="mt-5 text-center">
+           <h3>Thank you for your contact!</h3>
+           <h3>We will shortly reach you out. </h3>
+         </div>
+      </template>
     </div>
 
     <div class="contact-form-back"></div>
@@ -93,6 +99,16 @@
           phone: '',
           message: '',
           status: 'not_accepted'
+        },
+        emailSent: false
+      }
+    },
+    methods: {
+      async sendEmail() {
+        const data = this.form;
+        const result  = await this.$axios.$post('/contact', data);
+        if(result.data === true) {
+          this.emailSent = true
         }
       }
     }

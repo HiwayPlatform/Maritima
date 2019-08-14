@@ -1,52 +1,64 @@
 <template>
-    <footer>
-        <div class="app-footer">
-            <div class="container">
-                <div class="footer-logo">
-                    <img src="~/assets/images/logo.svg">
-                    <div class="footer-title">
-                        <h5>
-                            Maritima
-                        </h5>
-                        <p>Dental & Esthetics</p>
-                    </div>
-                </div>
-                <b-row class="footer-content">
-                    <b-col sm="6" class="footer-left d-flex">
-                        <div class="footer-left-about">
-                          <h5>About</h5>
-                          <p>About us</p>
-                          <p>Treatments</p>
-                          <p>News</p>
-                          <p>Webshop</p>
-                          <p>Contact</p>
-                        </div>
-                        <div class="footer-left-contact">
-                          <h5>Contact</h5>
-                          <p>citas@dentalesthetics.es<br/>+34 822775133</p>
-                          <p>Av Maritima 29<br/>
-                            Residencial Naiguata bloque Al<br/>locales 2 y 3<br/>
-                            Candelaria/Santa Cruz de Tenerify<br/>
-                            38530</p>
-                        </div>
-                    </b-col>
-                    <b-col offset-sm="4" sm="2" class="footer-right">
-                        <div class="footer-right-content">
-                            <h5>Social Media</h5>
-                            <div class="footer-facebook-content">
-                                <img src="~/assets/images/icons/facebook-image.png">
-                                <span>Facebook</span>
-                            </div>
-                            <div class="footer-instagram-content mt-2">
-                                <img src="~/assets/images/icons/instagram-image.png">
-                                <span>Instagram</span>
-                            </div>
-                        </div>
-                    </b-col>
-                </b-row>
+  <footer>
+    <div class="app-footer">
+      <div class="container">
+        <b-row>
+          <b-col md="12">
+            <div class="footer-logo">
+              <img src="~/assets/images/logo.svg">
+              <div class="footer-title">
+                <h5>
+                  Maritima
+                </h5>
+                <p>Dental & Esthetics</p>
+              </div>
             </div>
-        </div>
-    </footer>
+          </b-col>
+        </b-row>
+        <b-row class="footer-content">
+          <b-col sm="6" class="footer-left d-flex">
+            <div class="footer-left-about">
+              <h5>About</h5>
+              <p>
+                <nuxt-link active-class="active" to="/home" class="nav-link">About us</nuxt-link>
+              </p>
+              <p>
+                <nuxt-link active-class="active" to="/treatments" class="nav-link">Treatments</nuxt-link>
+              </p>
+              <p>
+                <nuxt-link active-class="active" to="/news" class="nav-link">News</nuxt-link>
+              </p>
+              <p><a href="https://webshop.dentalesthetics.es/" class="nav-link">Webshop</a></p>
+              <p>
+                <nuxt-link active-class="active" to="/contact" class="nav-link">Contact</nuxt-link>
+              </p>
+            </div>
+            <div class="footer-left-contact">
+              <h5>Contact</h5>
+              <p>citas@dentalesthetics.es<br/>+34 822775133</p>
+              <p>Av Maritima 29<br/>
+                Residencial Naiguata bloque Al<br/>locales 2 y 3<br/>
+                Candelaria/Santa Cruz de Tenerify<br/>
+                38530</p>
+            </div>
+          </b-col>
+          <b-col offset-sm="4" sm="2" class="footer-right">
+            <div class="footer-right-content">
+              <h5>Social Media</h5>
+              <div class="footer-facebook-content">
+                <img src="~/assets/images/icons/facebook-image.png">
+                <span>Facebook</span>
+              </div>
+              <div class="footer-instagram-content mt-2">
+                <img src="~/assets/images/icons/instagram-image.png">
+                <span>Instagram</span>
+              </div>
+            </div>
+          </b-col>
+        </b-row>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script>

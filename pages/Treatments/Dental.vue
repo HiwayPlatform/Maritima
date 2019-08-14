@@ -1,8 +1,8 @@
 <template>
   <div id="page_treatments" class="main">
-    <app-page-treatments-header/>
+    <app-page-treatments-header :title="title"/>
     <app-page-treatments-menu/>
-    <app-page-treatments-dental-content/>
+    <app-page-treatments-dental-content :treatments="treatments"/>
   </div>
 </template>
 
@@ -21,11 +21,20 @@
     },
     data() {
       return {
+        title: 'All Dentals',
         backgroundColor: '#cde8f0',
+        treatments: []
       };
+    },
+    methods: {
+      async loadData() {
+        const result  = await this.$axios.$get('/treatments?page=1&size=-1&category=dental');
+        this.treatments = result.data;
+      }
     },
     mounted() {
       paintCommon();
+      this.loadData();
       this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',

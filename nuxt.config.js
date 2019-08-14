@@ -24,19 +24,20 @@ module.exports = {
   css: [
     {src: '~/assets/scss/custom.scss', lang: 'scss'}
   ],
-  /**
-   * Route
-   */
-  route: {
-  },
+  /*
+  ** Route
+  */
+  route: {},
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
     "~plugins/global.js",
-    { src: "~plugins/slick-slide.js", ssr: false },
-    { src: '~/plugins/vuex-persist', ssr: false },
-    "~/plugins/eventBus"
+    "~plugins/axios",
+    {src: "~plugins/slick-slide.js", ssr: false},
+    {src: "~/plugins/vuex-persist", ssr: false},
+    "~/plugins/eventBus",
+    "~/plugins/spinner"
   ],
   /*
   ** Nuxt.js modules
@@ -45,13 +46,17 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    ['@nuxtjs/axios', {
+      baseURL: process.env.NODE_ENV === 'development' ? 'http://local.dental.com/wp-json/dental' : 'http://149.210.249.218/wp-json/dental'
+    }]
   ],
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
   */
-  axios: {},
+  axios: {
+    debug: true,
+  },
   /*
   ** Build configuration
   */

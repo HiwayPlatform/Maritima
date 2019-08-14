@@ -1,52 +1,68 @@
 <template>
   <section class="news-content">
     <div class="container">
-      <div class="active-news">
-        <b-row>
-          <b-col md="8">
-            <nuxt-link active-class="active" :to="'/news/item?id=' + activeNews.id">
-              <div class="news-image">
-                <!--<img :src="activeNews.image"/>-->
-              </div>
-            </nuxt-link>
-          </b-col>
-          <b-col md="4">
-            <div class="news-content">
-              <div class="news-content-title">
-                <h2>{{activeNews.title}}</h2>
-              </div>
-              <div class="news-content-description">
-                <p>{{activeNews.description}}</p>
-                <small>{{activeNews.publishedAt}} - {{activeNews.author}}</small>
-              </div>
-            </div>
-          </b-col>
-        </b-row>
-      </div>
-      <div class="news-list">
-        <b-row>
-          <b-col md="4" v-for="(news, index) in newsList" :key="index">
-            <div class="news-item">
-              <nuxt-link active-class="active" :to="'/news/item?id=' + news.id">
-                <div class="news-image">
-                  <!--<img :src="news.image"/>-->
+      <template v-if="items.length > 0">
+        <div class="active-news">
+          <b-row>
+            <b-col md="8">
+              <nuxt-link active-class="active" :to="'/news/item?id=' + items[0].id">
+                <div class="news-image"
+                     :style="[items[0].image ? {backgroundImage: 'url('+items[0].image+')'} : '']"
+                >
+                  <!--<img :src="items[0].image"/>-->
                 </div>
               </nuxt-link>
+            </b-col>
+            <b-col md="4">
               <div class="news-content">
                 <div class="news-content-title">
-                  <h5>{{news.title}}</h5>
+                  <h2>{{items[0].title}}</h2>
                 </div>
                 <div class="news-content-description">
-                  <p>{{news.description}}</p>
-                  <small>{{news.publishedAt}} - {{news.author}}</small>
+                  <p>{{items[0].short_description}}</p>
+                  <small>{{items[0].published_at}} - {{items[0].author}}</small>
                 </div>
               </div>
-            </div>
-          </b-col>
-        </b-row>
-      </div>
-      <div class="view-more">
-        <a href="#" class="button-extend-normal-round">View More</a>
+            </b-col>
+          </b-row>
+        </div>
+        <div class="news-list">
+          <b-row>
+            <b-col md="4" v-for="(news, index) in items" :key="index">
+              <div class="news-item">
+                <nuxt-link active-class="active" :to="'/news/item?id=' + news.id">
+                  <div class="news-image"
+                       :style="[news.image ? {backgroundImage: 'url('+news.image+')'} : '']">
+                    <!--<img :src="news.image"/>-->
+                  </div>
+                </nuxt-link>
+                <div class="news-content">
+                  <div class="news-content-title">
+                    <h5>{{news.title}}</h5>
+                  </div>
+                  <div class="news-content-description">
+                    <p>{{news.short_description}}</p>
+                    <small>{{news.published_at}} - {{news.author}}</small>
+                  </div>
+                </div>
+              </div>
+            </b-col>
+          </b-row>
+          <b-row v-show="loading">
+            <b-col md="12">
+              <loading-spinner/>
+            </b-col>
+          </b-row>
+        </div>
+        <div class="view-more">
+          <a href="#"
+             class="button-extend-normal-round"
+             :class="{disabled: disableLoadMore}"
+             @click="loadMore">View More</a>
+        </div>
+      </template>
+      <div style="margin-top:180px" v-else>
+        <loading-spinner/>
       </div>
     </div>
   </section>
@@ -55,73 +71,45 @@
 <script>
   export default {
     name: "app-page-news-list",
+    props: {
+      newsList: {
+        type: Array,
+        default: () => []
+      }
+    },
     data() {
       return {
-        activeNews: {
-          id: '1',
-          title: 'News item title1',
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-          image: '',
-          publishedAt: 'Date and time',
-          author: 'Written by'
-        },
-        newsList: [
-          {
-            id: '1',
-            title: 'News item title1',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-            image: '',
-            publishedAt: 'Date and time',
-            author: 'Written by'
-          },
-          {
-            id: '2',
-            title: 'News item title2',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-            image: '',
-            publishedAt: 'Date and time',
-            author: 'Written by'
-          },
-          {
-            id: '3',
-            title: 'News item title3',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-            image: '',
-            publishedAt: 'Date and time',
-            author: 'Written by'
-          },
-          {
-            id: '4',
-            title: 'News item title4',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-            image: '',
-            publishedAt: 'Date and time',
-            author: 'Written by'
-          },
-          {
-            id: '5',
-            title: 'News item title5',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-            image: '',
-            publishedAt: 'Date and time',
-            author: 'Written by'
-          },
-          {
-            id: '6',
-            title: 'News item title6',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...`,
-            image: '',
-            publishedAt: 'Date and time',
-            author: 'Written by'
-          }
-        ]
+        page: 3,
+        size: 3,
+        loading: false,
+        disableLoadMore: false,
+        items: []
+      }
+    },
+    methods: {
+      async loadMore() {
+        if (event) {
+          event.preventDefault();
+        }
+        if (this.disableLoadMore) {
+          return false;
+        }
+        this.loading = true;
+        const result = await this.$axios.$get(`/news?page=${this.page}&size=${this.size}`);
+        if (result.data.length > 0) {
+          this.items.push(...result.data);
+          this.page++;
+        } else {
+          this.disableLoadMore = true;
+        }
+        this.loading = false;
+      }
+    },
+    watch: {
+      newsList() {
+        if (this.newsList.length > 0) {
+          this.items = this.newsList;
+        }
       }
     }
   }

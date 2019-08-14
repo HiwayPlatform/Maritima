@@ -38,8 +38,8 @@ $height-header_contact: 47.25px;
 $height-header_navigation: 82px;
 $height-body: calc(100vh - #{$height-header_contact + $height-header_navigation});
 
-//$height-home-head: calc(100vh - #{$height-header_contact + $height-header_navigation});
-$height-home-head: 680px;
+$height-home-head: calc(100vh - #{$height-header_contact + $height-header_navigation});
+//$height-home-head: 680px;
 $height-home-head-mobile: calc(100vh - #{$height-header_navigation});
 //$height-home-head-mobile: 500px;
 $height-treatments-head: 300px;

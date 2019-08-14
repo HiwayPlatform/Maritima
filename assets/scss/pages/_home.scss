@@ -273,9 +273,12 @@
       .item-price {
         p {
           margin-top: 8px;
+          font-weight: bold;
+          font-family: Inconsolata;
         }
         span {
           text-decoration: line-through;
+          font-weight: normal;
         }
       }
       .item-button {
@@ -304,10 +307,12 @@
       margin-top: 35px;
 
       .item-image {
-        img {
-          width: 100%;
-          height: 235.5px;
-        }
+        width: 100%;
+        height: 235.5px;
+        background-color: $color-app-third;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
       }
       .item-description {
         h5 {
