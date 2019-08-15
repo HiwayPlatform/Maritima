@@ -43,7 +43,7 @@
                     <h5>{{item.title}}</h5>
                   </div>
                   <div class="news-content-description">
-                    <p>{{item.long_description}}</p>
+                    <p>{{item.short_description}}</p>
                     <small>{{item.published_at}} - {{item.author}}</small>
                   </div>
                 </div>
