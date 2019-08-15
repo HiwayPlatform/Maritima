@@ -47,7 +47,7 @@ module.exports = {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     ['@nuxtjs/axios', {
-      baseURL: process.env.NODE_ENV === 'development' ? 'http://local.dental.com/wp-json/dental' : 'http://149.210.249.218/wp-json/dental'
+      baseURL: process.env.NODE_ENV === 'development' ? 'http://local.dental.com/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
     }]
   ],
   /*
