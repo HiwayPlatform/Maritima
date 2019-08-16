@@ -1,7 +1,7 @@
 <template>
   <div id="page_contact" class="main">
     <app-page-contact-form/>
-    <!--<app-page-contact-appointment/>-->
+    <app-page-contact-appointment/>
   </div>
 </template>
 
