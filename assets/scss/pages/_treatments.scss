@@ -139,7 +139,7 @@
         img {
           width: 50.7px;
           height: auto;
-          animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+          //animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
         }
       }
       .item-description {
@@ -178,7 +178,7 @@
       &-image > img {
         width: 98px;
         margin: 0 auto;
-        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        //animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
       }
 
       &-description {
@@ -266,7 +266,7 @@
       &-image > img {
         width: 98px;
         margin: 0 auto;
-        animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        //animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
       }
 
       &-description {
