@@ -29,23 +29,23 @@
           <h2>More News</h2>
           <b-row>
             <b-col md="4" v-for="(item, index) in relatedNews" :key="index">
-              <div class="news-item">
-                <nuxt-link active-class="active"
-                           :to="'/news/item?id=' + item.id">
+              <nuxt-link active-class="active"
+                         :to="'/news/item?id=' + item.id">
+                <div class="news-item">
                   <div class="news-image"
                        :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
                   </div>
-                </nuxt-link>
-                <div class="news-content">
-                  <div class="news-content-title">
-                    <h5>{{item.title}}</h5>
-                  </div>
-                  <div class="news-content-description">
-                    <div v-html="item.short_description"></div>
-                    <small>{{item.published_at}} - {{item.author}}</small>
+                  <div class="news-content">
+                    <div class="news-content-title">
+                      <h5>{{item.title}}</h5>
+                    </div>
+                    <div class="news-content-description">
+                      <div v-html="item.short_description"></div>
+                      <small>{{item.published_at}} - {{item.author}}</small>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </nuxt-link>
             </b-col>
           </b-row>
         </div>
