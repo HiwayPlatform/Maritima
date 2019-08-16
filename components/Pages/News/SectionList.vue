@@ -9,7 +9,6 @@
                 <div class="news-image"
                      :style="[items[0].image ? {backgroundImage: 'url('+items[0].image+')'} : '']"
                 >
-                  <!--<img :src="items[0].image"/>-->
                 </div>
               </nuxt-link>
             </b-col>
@@ -19,7 +18,7 @@
                   <h2>{{items[0].title}}</h2>
                 </div>
                 <div class="news-content-description">
-                  <p>{{items[0].short_description}}</p>
+                  <div v-html="items[0].short_description"></div>
                   <small>{{items[0].published_at}} - {{items[0].author}}</small>
                 </div>
               </div>
@@ -33,7 +32,6 @@
                 <nuxt-link active-class="active" :to="'/news/item?id=' + news.id">
                   <div class="news-image"
                        :style="[news.image ? {backgroundImage: 'url('+news.image+')'} : '']">
-                    <!--<img :src="news.image"/>-->
                   </div>
                 </nuxt-link>
                 <div class="news-content">
@@ -41,7 +39,7 @@
                     <h5>{{news.title}}</h5>
                   </div>
                   <div class="news-content-description">
-                    <p>{{news.short_description}}</p>
+                    <div v-html="news.short_description"></div>
                     <small>{{news.published_at}} - {{news.author}}</small>
                   </div>
                 </div>

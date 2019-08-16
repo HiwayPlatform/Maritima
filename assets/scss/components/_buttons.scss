@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  box-shadow: $color-black 0 0 0 0.75px;
+  box-shadow: $color-black 0 0 0 1px;
   box-sizing: border-box;
   font-size: $font-size-default;
   font-family: Inconsolata;
@@ -17,7 +17,7 @@
   padding: 10px 10px;
   text-decoration: none !important;
   &:hover {
-    box-shadow: $color-black 0 0 0 1.5px;
+    box-shadow: $color-black 0 0 0 2px;
     color: $color-black;
     font-weight: bold;
   }

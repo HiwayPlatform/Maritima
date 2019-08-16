@@ -14,10 +14,9 @@
                   <div class="slider-item" v-for="(item, index) in slickNews" :key="index">
                     <div class="slider-item-image"
                          :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
-                      <!--<img v-show="item.image" :src="item.image" alt="News image">-->
                     </div>
                     <div class="slider-item-description">
-                      <p>{{item.long_description}}</p>
+                      <div v-html="item.long_description"></div>
                       <small>{{item.published_at}} - {{item.author}}</small>
                     </div>
                   </div>
@@ -35,7 +34,6 @@
                            :to="'/news/item?id=' + item.id">
                   <div class="news-image"
                        :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
-                    <!--<img :src="item.image"/>-->
                   </div>
                 </nuxt-link>
                 <div class="news-content">
@@ -43,7 +41,7 @@
                     <h5>{{item.title}}</h5>
                   </div>
                   <div class="news-content-description">
-                    <p>{{item.short_description}}</p>
+                    <div v-html="item.short_description"></div>
                     <small>{{item.published_at}} - {{item.author}}</small>
                   </div>
                 </div>

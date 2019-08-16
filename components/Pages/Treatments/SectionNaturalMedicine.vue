@@ -12,7 +12,7 @@
             <div class="item-description">
               <h5>{{treatment.title}}</h5>
               <h6>{{treatment.sub_title}}</h6>
-              <p>{{treatment.short_description}}</p>
+              <div v-html="treatment.short_description"></div>
             </div>
             <div class="item-button">
               <nuxt-link active-class="active"

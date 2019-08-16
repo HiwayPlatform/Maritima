@@ -25,8 +25,8 @@
                            src="~/assets/images/treatments/natural-medicine.svg"
                            alt="treatment image">
                     </div>
-                    <div class="slider-item-description">
-                      <p>{{item.long_description}}</p>
+                    <div class="slider-item-description"
+                         v-html="item.long_description">
                     </div>
                     <div class="slider-item-specs" v-if="item.specs.length > 0">
                       <div class="slider-item-specs-item" v-for="(spec, i) in item.specs" :key="i">
@@ -68,7 +68,7 @@
               <div class="item-description">
                 <h5>{{item.title}}</h5>
                 <h6>{{item.sub_title}}</h6>
-                <p>{{item.short_description}}</p>
+                <div v-html="item.short_description"></div>
               </div>
               <div class="item-button">
                 <nuxt-link active-class="active"

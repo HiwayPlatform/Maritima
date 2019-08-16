@@ -10,12 +10,11 @@
             <nuxt-link active-class="active" :to="'/news/item?id=' + item.id">
               <div class="item-image"
                    :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
-                <!--<img :src="item.image"/>-->
               </div>
             </nuxt-link>
             <div class="item-description">
               <h5>{{item.title}}</h5>
-              <p>{{item.short_description}}</p>
+              <div v-html="item.short_description"></div>
               <small>{{item.published_at}} - {{item.author}}</small>
             </div>
           </div>
@@ -33,7 +32,9 @@
         </b-col>
       </b-row>
       <div class="news-more">
-        <nuxt-link active-class="active" to="/news" class="button-extend-normal-round">More news</nuxt-link>
+        <nuxt-link active-class="active"
+                   to="/news"
+                   class="button-extend-normal-round">More news</nuxt-link>
       </div>
     </div>
   </section>
