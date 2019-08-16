@@ -32,7 +32,7 @@
             <b-col md="4" v-for="(item, index) in relatedNews" :key="index">
               <div class="news-item">
                 <nuxt-link active-class="active"
-                           :to="'/news/item?id=' + news.id">
+                           :to="'/news/item?id=' + item.id">
                   <div class="news-image"
                        :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
                     <!--<img :src="item.image"/>-->
