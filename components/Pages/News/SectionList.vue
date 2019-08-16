@@ -28,22 +28,22 @@
         <div class="news-list">
           <b-row>
             <b-col md="4" v-for="(news, index) in items" :key="index">
-              <div class="news-item">
-                <nuxt-link active-class="active" :to="'/news/item?id=' + news.id">
+              <nuxt-link active-class="active" :to="'/news/item?id=' + news.id">
+                <div class="news-item">
                   <div class="news-image"
                        :style="[news.image ? {backgroundImage: 'url('+news.image+')'} : '']">
                   </div>
-                </nuxt-link>
-                <div class="news-content">
-                  <div class="news-content-title">
-                    <h5>{{news.title}}</h5>
-                  </div>
-                  <div class="news-content-description">
-                    <div v-html="news.short_description"></div>
-                    <small>{{news.published_at}} - {{news.author}}</small>
+                  <div class="news-content">
+                    <div class="news-content-title">
+                      <h5>{{news.title}}</h5>
+                    </div>
+                    <div class="news-content-description">
+                      <div v-html="news.short_description"></div>
+                      <small>{{news.published_at}} - {{news.author}}</small>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </nuxt-link>
             </b-col>
           </b-row>
           <b-row v-show="loading">

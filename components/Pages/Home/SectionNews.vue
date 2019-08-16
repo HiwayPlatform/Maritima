@@ -6,18 +6,18 @@
       </div>
       <b-row v-if="news.length > 0">
         <b-col lg="4" v-for="(item, index) of news" :key="index">
-          <div class="news-content-item">
-            <nuxt-link active-class="active" :to="'/news/item?id=' + item.id">
+          <nuxt-link active-class="active" :to="'/news/item?id=' + item.id">
+            <div class="news-content-item">
               <div class="item-image"
                    :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
               </div>
-            </nuxt-link>
-            <div class="item-description">
-              <h5>{{item.title}}</h5>
-              <div v-html="item.short_description"></div>
-              <small>{{item.published_at}} - {{item.author}}</small>
+              <div class="item-description">
+                <h5>{{item.title}}</h5>
+                <div v-html="item.short_description"></div>
+                <small>{{item.published_at}} - {{item.author}}</small>
+              </div>
             </div>
-          </div>
+          </nuxt-link>
         </b-col>
       </b-row>
       <b-row v-else>
@@ -34,7 +34,8 @@
       <div class="news-more">
         <nuxt-link active-class="active"
                    to="/news"
-                   class="button-extend-normal-round">More news</nuxt-link>
+                   class="button-extend-normal-round">More news
+        </nuxt-link>
       </div>
     </div>
   </section>
