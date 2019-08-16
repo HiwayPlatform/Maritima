@@ -60,14 +60,14 @@
           v-model="form.message">
         </b-form-textarea>
 
-        <b-form-checkbox
-          id="accept"
-          name="accept"
-          value="accepted"
-          unchecked-value="not_accepted"
-          v-model="form.status">
-          Yes I agree on the term and service, read them here.
-        </b-form-checkbox>
+        <!--<b-form-checkbox-->
+          <!--id="accept"-->
+          <!--name="accept"-->
+          <!--value="accepted"-->
+          <!--unchecked-value="not_accepted"-->
+          <!--v-model="form.status">-->
+          <!--Yes I agree on the term and service, read them here.-->
+        <!--</b-form-checkbox>-->
 
         <div class="view-more">
           <a href="#" class="button-extend-large-round" @click="sendEmail">Send</a>
@@ -98,7 +98,7 @@
           address: '',
           phone: '',
           message: '',
-          status: 'not_accepted'
+          status: 'accepted'
         },
         emailSent: false
       }

@@ -7,10 +7,10 @@
       <div class="tenerife-right-content v-middle_wrap">
         <div class="v-middle">
           <div class="tenerife-right-title">
-            <h2>Welcome to Maritima!</h2>
+            <h2>Welcome to Maritima</h2>
           </div>
           <div class="tenerife-right-description">
-            <p>Located in the heart of Tenerife, Maritima began in 2015 as a dental clinic. Since then Maritima has
+            <p>Located in the heart of Tenerife, Maritima began in 2007 as a dental clinic. Since then Maritima has
               quickly grown towards an all-encompassing clinic in terms of Dental, Esthetics and Natural Medicine.</p>
             <p>Built on twenty-five years of experience, Maritima hosts an extensive amount of knowledge within its
               industry.</p>

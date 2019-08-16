@@ -71,8 +71,7 @@
         default: () => []
       }
     },
-    methods: {
-    },
+    methods: {},
     mounted() {
     }
   }
