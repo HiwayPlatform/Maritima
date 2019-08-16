@@ -9,7 +9,6 @@
   font-family: Inconsolata;
   font-weight: normal;
   font-style: normal;
-  font-stretch: normal;
   line-height: 1.05;
   letter-spacing: normal;
   text-align: center;
@@ -34,12 +33,10 @@
 .button-small-round {
   @extend .button-round;
   font-size: $font-size-x1-small;
-  font-weight: 600;
   padding: 11px 22px;
 }
 .button-extend-small-round {
   @extend .button-round;
-  font-weight: 600;
   padding: 7px 30px;
 }
 .button-extend-normal-round {

@@ -16,25 +16,25 @@ $color-app-third: $color-light-gray;
 
 
 /************ Font Sizes *****************/
-$font-size-x2-small: 10.5px;
+$font-size-x2-small: 11px;
 $font-size-x1-small: 12px;
-$font-size-small: 13.5px;
+$font-size-small: 14px;
 $font-size-default: 15px;
-$font-size-large: 16.5px;
+$font-size-large: 17px;
 $font-size-x1-large: 18px;
 $font-size-x2-large: 33px;
 $font-size-x3-large: 36px;
-$font-size-x4-large: 40.5px;
+$font-size-x4-large: 41px;
 $font-size-x5-large: 45px;
 $font-size-x6-large: 60px;
 
-$font-size-x2-x-large: 22.5px;
+$font-size-x2-x-large: 23px;
 
 /************ Height *****************/
 $height-animate-ty: 40px;
 $height-animate-tx: 40px;
 
-$height-header_contact: 47.25px;
+$height-header_contact: 48px;
 $height-header_navigation: 82px;
 $height-body: calc(100vh - #{$height-header_contact + $height-header_navigation});
 
