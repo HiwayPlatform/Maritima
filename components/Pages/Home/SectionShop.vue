@@ -11,7 +11,7 @@
               <img :src="product.image"/>
             </div>
             <div class="item-description">
-              <p>{{product.description}}</p>
+              <div v-html="product.description"></div>
             </div>
             <div class="item-price">
               <p><span>{{product.price}}</span>&nbsp;&nbsp;&nbsp;<strong>{{product.discount_price}}</strong></p>
