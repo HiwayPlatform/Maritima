@@ -35,7 +35,7 @@
             </div>
             <div class="footer-left-contact">
               <h5>Contact</h5>
-              <p>citas@dentalesthetics.es<br/>+34 822775133</p>
+              <p>citas@dentalesthetics.es<br/>+34 674354930</p>
               <p>Av Maritima 29<br/>
                 Residencial Naiguata bloque Al<br/>locales 2 y 3<br/>
                 Candelaria/Santa Cruz de Tenerify<br/>
