@@ -16,7 +16,9 @@
               <h6>Description</h6>
             </div>
             <div class="item-description">
-              <p>In our clinic we offer two kind of treatments. Read more about all our treatments below. </p>
+              <p>
+                In our clinic we offer two kind of treatments.
+                Read more about all our treatments below. </p>
             </div>
             <div class="item-button">
               <a href="#" class="button-extend-normal-round">Read more</a>
@@ -37,7 +39,9 @@
               <h6>Description</h6>
             </div>
             <div class="item-description">
-              <p>In our clinic we offer two kind of treatments. Read more about all our treatments below. </p>
+              <p>
+                In our clinic we offer two kind of treatments.
+                Read more about all our treatments below. </p>
             </div>
             <div class="item-button">
               <a href="#" class="button-extend-normal-round">Read more</a>

@@ -9,7 +9,9 @@
       </div>
       <div class="inner-container position-relative">
         <div class="header-bottom">
-          <p>Specialist in high-end Dental services alongside a broad range of state of the art Esthetics treatments.</p>
+          <p>
+            Specialist in high-end Dental services alongside a broad range of
+            state of the art Esthetics treatments.</p>
         </div>
         <div class="header-arrow_wrap">
           <img class="header-arrow" src="~/assets/images/icons/down-arrow.svg"/>

@@ -10,18 +10,27 @@
             <h2>Welcome to Maritima</h2>
           </div>
           <div class="tenerife-right-description">
-            <p>Located in the heart of Tenerife, Maritima began in 2007 as a dental clinic. Since then Maritima has
-              quickly grown towards an all-encompassing clinic in terms of Dental, Esthetics and Natural Medicine.</p>
-            <p>Built on twenty-five years of experience, Maritima hosts an extensive amount of knowledge within its
-              industry.</p>
-            <p>Take a look at the different treatments that we offer and feel free to reach out to us. </p>
-            <p>With the button below, you’ll be able to book in a specific treatment or a first consultation. We are
-              more than happy to hear your personal story and find the right personal route for your specific
+            <p>
+              Located in the heart of Tenerife, Maritima began in 2007
+              as a dental clinic. Since then Maritima has quickly grown towards
+              an all-encompassing clinic in terms of Dental, Esthetics and Natural Medicine.
+            </p>
+            <p>
+              Built on twenty-five years of experience, Maritima hosts an extensive
+              amount of knowledge within its industry.</p>
+            <p>
+              Take a look at the different treatments that we offer and feel
+              free to reach out to us. </p>
+            <p>
+              With the button below, you’ll be able to book in a specific treatment
+              or a first consultation. We are more than happy to hear your personal
+              story and find the right personal route for your specific
               needs.</p>
 
           </div>
           <div class="tenerife-right-button">
-            <a href="#" class="button-normal-round"> Book an appointment </a>
+            <a href="https://online.clinic-cloud.com/dentalesthetics/"
+               class="button-normal-round"> Book an appointment </a>
           </div>
         </div>
       </div>
