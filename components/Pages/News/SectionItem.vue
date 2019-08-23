@@ -11,13 +11,20 @@
                   :options="slickOptions"
                   @afterChange="handleAfterChange"
                   v-if="slickNews.length > 0">
-                  <div class="slider-item" v-for="(item, index) in slickNews" :key="index">
+                  <div class="slider-item"
+                       v-for="(item, index) in slickNews"
+                       :key="index">
                     <div class="slider-item-image"
-                         :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
+                         :style="[item['image'] ?
+                         {backgroundImage: 'url('+item['image']+')'} : '']">
                     </div>
                     <div class="slider-item-description">
-                      <div v-html="item.long_description"></div>
-                      <small>{{item.published_at}} - {{item.author}}</small>
+                      <div v-html="item['contents'][$i18n.locale]['long_description']"></div>
+                      <small>
+                        {{item['published_at']}}
+                        -
+                        {{item['author']}}
+                      </small>
                     </div>
                   </div>
                 </slick-slide>
@@ -26,22 +33,29 @@
           </b-col>
         </b-row>
         <div class="news-list">
-          <h2>More News</h2>
+          <h2>{{$t('news.moreNews')}}</h2>
           <b-row>
-            <b-col md="4" v-for="(item, index) in relatedNews" :key="index">
+            <b-col md="4"
+                   v-for="(item, index) in relatedNews"
+                   :key="index">
               <nuxt-link active-class="active"
-                         :to="'/news/item?id=' + item.id">
+                         :to="'/news/item?id=' + item['id']">
                 <div class="news-item">
                   <div class="news-image"
-                       :style="[item.image ? {backgroundImage: 'url('+item.image+')'} : '']">
+                       :style="[item['image'] ?
+                       {backgroundImage: 'url('+item['image']+')'} : '']">
                   </div>
                   <div class="news-content">
                     <div class="news-content-title">
-                      <h5>{{item.title}}</h5>
+                      <h5>{{item['contents'][$i18n.locale]['title']}}</h5>
                     </div>
                     <div class="news-content-description">
-                      <div v-html="item.short_description"></div>
-                      <small>{{item.published_at}} - {{item.author}}</small>
+                      <div v-html="item['contents'][$i18n.locale]['short_description']"></div>
+                      <small>
+                        {{item['published_at']}}
+                        -
+                        {{item['author']}}
+                      </small>
                     </div>
                   </div>
                 </div>
@@ -83,15 +97,15 @@
     },
     methods: {
       handleAfterChange(event, slick, currentSlide) {
-        this.$bus.$emit('set:title', this.slickNews[currentSlide].title)
+        this.$bus.$emit('set:active-slide', this.slickNews[currentSlide]['contents'])
       }
     },
     watch: {
       news() {
         this.relatedNews = [];
         this.slickNews = [];
-        if (this.news && this.news.id) {
-          this.relatedNews = this.news.related;
+        if (this.news && this.news['id']) {
+          this.relatedNews = this.news['related'];
           this.slickNews.push(this.news);
           this.slickNews.push(...this.relatedNews);
           this.$nextTick(() => {

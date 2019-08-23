@@ -1,6 +1,7 @@
 <template>
   <div id="page_news" class="main">
-    <app-page-news-header :title="title"/>
+    <app-page-news-header
+      :title="activeSlide ? activeSlide[$i18n.locale].title : ''"/>
     <app-page-news-item-content :news="news"/>
   </div>
 </template>
@@ -18,7 +19,7 @@
     },
     data() {
       return {
-        title: '',
+        activeSlide: null,
         news: {}
       };
     },
@@ -27,7 +28,7 @@
         if (this.$route.query.id) {
           const result = await this.$axios.$get(`/news/?id=${this.$route.query.id}`);
           this.news = result.data;
-          this.title = this.news.title;
+          this.activeSlide = this.news.contents;
         }
       }
     },
@@ -48,12 +49,12 @@
       paintCommon();
       this.loadData();
       this.$store.commit('background/default');
-      this.$bus.$on('set:title', (title) => {
-        this.title = title;
+      this.$bus.$on('set:active-slide', (contents) => {
+        this.activeSlide = contents;
       });
     },
     beforeDestroy() {
-      this.$bus.$off('set:title');
+      this.$bus.$off('set:active-slide');
     },
   }
 </script>

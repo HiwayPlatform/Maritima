@@ -108,7 +108,7 @@
               background: $color-light-black;
               content: " ";
               display: block;
-              height: 4.5px;
+              height: 4px;
               margin-top: 5px;
               position: absolute;
               transform: scale(0);
@@ -137,7 +137,7 @@
       background-color: $color-white;
       .item-image {
         img {
-          width: 50.7px;
+          width: 50px;
           height: auto;
           //animation: flip-vertical-right 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
         }
@@ -196,6 +196,13 @@
         margin-top: 80px;
         &-item {
           flex: 1;
+          &-image {
+            img {
+              width: 50px;
+              height: auto;
+              margin: 0 auto;
+            }
+          }
           &-description {
             max-width: 260px;
             margin: 0 auto;
@@ -284,6 +291,13 @@
         margin-top: 80px;
         &-item {
           flex: 1;
+          &-image {
+            img {
+              width: 50px;
+              height: auto;
+              margin: 0 auto;
+            }
+          }
           &-description {
             max-width: 260px;
             margin: 0 auto;

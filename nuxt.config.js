@@ -25,9 +25,10 @@ module.exports = {
     {src: '~/assets/scss/custom.scss', lang: 'scss'}
   ],
   /*
-  ** Route
+  ** Router
   */
-  route: {},
+  router: {
+  },
   /*
   ** Plugins to load before mounting the App
   */
@@ -37,7 +38,8 @@ module.exports = {
     {src: "~plugins/slick-slide.js", ssr: false},
     {src: "~/plugins/vuex-persist", ssr: false},
     "~/plugins/eventBus",
-    "~/plugins/spinner"
+    "~/plugins/spinner",
+    "~/plugins/i18n.js"
   ],
   /*
   ** Nuxt.js modules
@@ -47,7 +49,8 @@ module.exports = {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     ['@nuxtjs/axios', {
-      baseURL: process.env.NODE_ENV === 'development' ? 'http://local.dental.com/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
+      baseURL: process.env.NODE_ENV === 'development' ?
+        'http://local.dental.com/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
     }]
   ],
   /*

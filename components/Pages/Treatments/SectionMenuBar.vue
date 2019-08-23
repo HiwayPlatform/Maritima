@@ -3,13 +3,7 @@
     <div class="container">
       <div class="inner-container">
         <div class="menu-description">
-          <p>
-            At Maritima, we offer three kinds of treatments.
-            The first being Dental care. Secondly, a range of state of
-            the art Esthetics treatments and lastly, our diverse variety of
-            Natural Medicines. You’ll find more information regarding those
-            specific treatments below.
-          </p>
+          <p>{{$t('treatments.description')}}</p>
         </div>
         <div class="menu-bar">
           <ul class="menubar-content">
@@ -17,21 +11,21 @@
               <nuxt-link
                 active-class="active"
                 to="/treatments/dental"
-                class="menu-link">Dental
+                class="menu-link"> {{$t('treatments.dental.title')}}
               </nuxt-link>
             </li>
             <li class="menubar-item esthetics">
               <nuxt-link
                 active-class="active"
                 to="/treatments/esthetics"
-                class="menu-link">Esthetics
+                class="menu-link">{{$t('treatments.esthetics.title')}}
               </nuxt-link>
             </li>
             <li class="menubar-item natural-medicine">
               <nuxt-link
                 active-class="active"
                 to="/treatments/natural-medicine"
-                class="menu-link">Natural Medicine
+                class="menu-link">{{$t('treatments.natural.title')}}
               </nuxt-link>
             </li>
           </ul>

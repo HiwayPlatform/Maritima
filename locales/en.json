@@ -1,0 +1,151 @@
+{
+  "common": {
+    "readMore": "Read More",
+    "viewMore": "View More"
+  },
+  "menu": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "news": "News",
+    "webshop": "Webshop",
+    "contact": "Contact",
+    "book": "Book an appointment",
+    "address": "Avenida Marítima 29 - 38530 - Candelaria, Santa Cruz de Tenerife - Spain - Phone: +34 822 775 133 - ",
+    "emergency": "In case of emergency +34 693 931 717"
+  },
+  "home": {
+    "header": {
+      "title": "Maritima",
+      "subTitle": "Dental & Esthetics",
+      "bottomDescription": "Specialist in high-end Dental services alongside a broad range of state of the art Esthetics treatments."
+    },
+    "tenerife": {
+      "title": "Welcome to Maritima",
+      "description1": "Located in the heart of Tenerife, Maritima began in 2007 as a dental clinic. Since then Maritima has quickly grown towards an all-encompassing clinic in terms of Dental, Esthetics and Natural Medicine.",
+      "description2": "Built on twenty-five years of experience, Maritima hosts an extensive amount of knowledge within its industry.",
+      "description3": "Take a look at the different treatments that we offer and feel free to reach out to us. ",
+      "description4": "With the button below, you’ll be able to book in a specific treatment or a first consultation. We are more than happy to hear your personal story and find the right personal route for your specific needs.",
+      "book": "Book an appointment"
+    },
+    "about": {
+      "title": "The way we work",
+      "approach": {
+        "title": "Personal Approach",
+        "description": "We consider our patients as individuals whose emotions, aspirations and objectives are unique and therefore require a dedicated and tailored approach, provided by our first-class services and recognised professionals."
+      },
+      "treatments": {
+        "title": "Wide range of treatments",
+        "description": "From Dental services to Esthetics, to Natural Medicine, we are here to help you out."
+      },
+      "quality": {
+        "title": "Guaranteed Quality",
+        "description": "We are proud to guarantee that you are offered the best of each specific procedure helping to improve the quality of your life for years to come."
+      }
+    },
+    "treatments": {
+      "title": "Treatments",
+      "description": "At Maritima, we offer three kinds of treatments. The first being Dental care. Secondly, a range of state of the art Esthetics treatments and lastly, our diverse variety of Natural Medicines.",
+      "dental": {
+        "title": "Dental",
+        "description": "From simple check-ups to more complex restorative treatments we provide professional dental care and treatments."
+      },
+      "esthetics": {
+        "title": "Esthetics",
+        "description": "From massage to more state of the art treatments like PRP and Hyaluronic acid fillings, our esthetic treatments ensure you feel the best version of yourself."
+      },
+      "natural": {
+        "title": "Natural Medicine",
+        "description": "We are dedicated to giving each of our patients the healthy lifestyle they deserve through our knowledge and experience of natural medicine and nutrition."
+      }
+    },
+    "shop": {
+      "title": "Shop our products",
+      "buy": "Buy",
+      "shopMore": "Shop more"
+    },
+    "news": {
+      "title": "Our news",
+      "moreNews": "More news"
+    },
+    "appointment": {
+      "title": "Book an appointment",
+      "description1": "Come say hi! Book a free appointment with us!",
+      "description2": "Located just 20 minutes away from Tenerife's economic centre Santa Cruz, we are more than happy to welcome you in our clinic. Give us a call, and we’ll make sure to find a perfect fit for your needs.",
+      "description3": "Maritima Clinic is open from",
+      "description4": "Monday to Friday from 09:00 to 20:00",
+      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
+      "description6": "Use the button below to send us an email",
+      "address": "Address",
+      "phone": "Phone",
+      "reachOut": "Reach out"
+    }
+  },
+  "treatments": {
+    "description": "At Maritima, we offer three kinds of treatments. The first being Dental care. Secondly, a range of state of the art Esthetics treatments and lastly, our diverse variety of Natural Medicines. You’ll find more information regarding those specific treatments below.",
+    "dental": {
+      "all": "All Dentals",
+      "title": "Dental"
+    },
+    "esthetics": {
+      "all": "All Esthetics",
+      "title": "Esthetics"
+    },
+    "natural": {
+      "all": "All Natural Medicines",
+      "title": "Natural Medicine"
+    },
+    "others": "Other Treatments in category"
+  },
+  "news": {
+    "title": "News",
+    "moreNews": "More News"
+  },
+  "contact": {
+    "title": "Contact",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "typeHere": "Type Here",
+    "agree": "Yes I agree on the term and service.",
+    "send": "Send",
+    "tankyou": "Thank you for your contact!",
+    "reachOut": "We will shortly reach you out.",
+    "appointment": {
+      "title": "What to know more",
+      "description1": "Come say hi! Book a free appointment with us!",
+      "description2": "Located just 20 minutes away from Tenerife's economic centre Santa Cruz, we are more than happy to welcome you in our clinic. Give us a call, and we’ll make sure to find a perfect fit for your needs.",
+      "description3": "Maritima Clinic is open from",
+      "description4": "Monday to Friday from 09:00 to 20:00",
+      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
+      "address": "Address",
+      "phone": "Phone",
+      "reachOut": "Reach out"
+    }
+  },
+  "footer": {
+    "logo": {
+      "title": "Maritima",
+      "subTitle": "Dental & Esthetics"
+    },
+    "about": {
+      "title": "About",
+      "aboutUs": "About us",
+      "treatments": "Treatments",
+      "news": "News",
+      "webshop": "Webshop",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "address1": "Av Maritima 29",
+      "address2": "Residencial Naiguata bloque Al",
+      "address3": "locales 2 y 3",
+      "address4": "Candelaria/Santa Cruz de Tenerife"
+    },
+    "social": {
+      "title": "Social Media"
+    }
+  }
+}

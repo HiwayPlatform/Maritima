@@ -209,18 +209,24 @@
 
     .treatments-content-item {
       margin-top: 70px;
-      padding: 40px 20px;
+      padding: 40px 20px 120px 20px;
       background-color: $color-white;
+      height: calc(100% - 70px);
 
       .item-image {
         height: 92px;
         img {
           width: auto;
+        }
+        &-first {
           height: 92px;
           margin-top: 24px;
         }
-        .item-image-third {
-          width: auto;
+        &-second {
+          height: 51px;
+          margin-top: 65px
+        }
+        &-third {
           height: 70px;
           margin-top: 55px;
           margin-left: 20px;
@@ -237,7 +243,10 @@
         }
       }
       .item-button {
-        margin: 15px 0;
+        position: absolute;
+        bottom: 65px;
+        transform: translateX(-50%);
+        left: 50%;
       }
     }
   }

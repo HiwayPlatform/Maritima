@@ -4,12 +4,8 @@
       <b-row>
         <b-col lg="12">
           <div class="treatments-title">
-            <h2>Treatments</h2>
-            <p>
-              At Maritima, we offer three kinds of treatments.
-              The first being Dental care. Secondly, a range of state of the art
-              Esthetics treatments and lastly, our diverse variety of Natural Medicines.
-            </p>
+            <h2>{{$t('home.treatments.title')}}</h2>
+            <p>{{$t('home.treatments.description')}}</p>
           </div>
         </b-col>
       </b-row>
@@ -17,35 +13,32 @@
         <b-col lg="4">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/treatments/dental.png"/>
+              <img class="item-image-first"
+                   src="~/assets/images/home/treatments/dental.svg"/>
             </div>
             <div class="item-description">
-              <h5>Dental</h5>
-              <p>
-                From simple check-ups to more complex restorative treatments
-                we provide professional dental care and treatments.</p>
-              <br>
+              <h5>{{$t('home.treatments.dental.title')}}</h5>
+              <p>{{$t('home.treatments.dental.description')}}</p>
             </div>
             <div class="item-button">
               <a href="/treatments"
-                 class="button-extend-small-round">Read More</a>
+                 class="button-extend-small-round">{{$t('common.readMore')}}</a>
             </div>
           </div>
         </b-col>
         <b-col lg="4">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/home/treatments/esthetics.png"/>
+              <img class="item-image-second"
+                   src="~/assets/images/home/treatments/esthetics.svg"/>
             </div>
             <div class="item-description">
-              <h5>Esthetics</h5>
-              <p>
-                From massage to more state of the art treatments like PRP and
-                Hyaluronic acid fillings, our esthetic treatments ensure you feel
-                the best version of yourself.</p>
+              <h5>{{$t('home.treatments.esthetics.title')}}</h5>
+              <p>{{$t('home.treatments.esthetics.description')}}</p>
             </div>
             <div class="item-button">
-              <a href="/treatments/esthetics" class="button-extend-small-round">Read More</a>
+              <a href="/treatments/esthetics"
+                 class="button-extend-small-round">{{$t('common.readMore')}}</a>
             </div>
           </div>
         </b-col>
@@ -53,18 +46,15 @@
           <div class="treatments-content-item">
             <div class="item-image">
               <img class="item-image-third"
-                   src="~/assets/images/home/treatments/natural-medicine.png"/>
+                   src="~/assets/images/home/treatments/natural-medicine.svg"/>
             </div>
             <div class="item-description">
-              <h5>Natural Medicine</h5>
-              <p>
-                We are dedicated to giving each of our patients the healthy
-                lifestyle they deserve through our knowledge and experience of
-                natural medicine and nutrition.</p>
+              <h5>{{$t('home.treatments.natural.title')}}</h5>
+              <p>{{$t('home.treatments.natural.description')}}</p>
             </div>
             <div class="item-button">
               <a href="/treatments/natural-medicine"
-                 class="button-extend-small-round">Read More</a>
+                 class="button-extend-small-round">{{$t('common.readMore')}}</a>
             </div>
           </div>
         </b-col>

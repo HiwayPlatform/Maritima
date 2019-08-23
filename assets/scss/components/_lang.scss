@@ -1,0 +1,15 @@
+.app-lang {
+  position: absolute;
+  right: 0;
+  top: 70px;
+  @include media-breakpoint-down(md) {
+    position: relative;
+    text-align: center;
+    top: 40px;
+  }
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+}

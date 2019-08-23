@@ -18,34 +18,35 @@
               <nuxt-link
                 active-class="active"
                 to="/home"
-                class="nav-link">Home</nuxt-link>
+                class="nav-link">{{$t('menu.home')}}</nuxt-link>
             </li>
             <li class="nav-item">
               <nuxt-link
                 active-class="active"
                 to="/treatments"
-                class="nav-link">Treatments</nuxt-link>
+                class="nav-link">{{$t('menu.treatments')}}</nuxt-link>
             </li>
             <li class="nav-item">
               <nuxt-link
                 active-class="active"
                 to="/news"
-                class="nav-link">News</nuxt-link>
+                class="nav-link">{{$t('menu.news')}}</nuxt-link>
             </li>
             <li class="nav-item">
               <a href="https://webshop.dentalesthetics.es/"
-                 class="nav-link">Webshop</a>
+                 class="nav-link">{{$t('menu.webshop')}}</a>
             </li>
             <li class="nav-item">
               <nuxt-link active-class="active"
                          to="/contact"
-                         class="nav-link">Contact</nuxt-link>
+                         class="nav-link">{{$t('menu.contact')}}</nuxt-link>
             </li>
           </b-navbar-nav>
           <b-navbar-nav class="appointment ml-auto">
             <a href="https://online.clinic-cloud.com/dentalesthetics/"
-               class="button-small-round">Book an appointment</a>
+               class="button-small-round">{{$t('menu.book')}}</a>
           </b-navbar-nav>
+          <app-lang/>
         </b-collapse>
       </b-navbar>
     </div>
@@ -53,10 +54,13 @@
 </template>
 
 <script>
+  import AppLang from "../Lang";
   export default {
     name: "app-header-navigation",
+    components: {AppLang},
     data() {
-      return {}
+      return {
+      }
     },
     computed: {
       backgroundColor() {

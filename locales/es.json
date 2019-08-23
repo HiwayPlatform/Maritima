@@ -1,0 +1,150 @@
+{
+  "common": {
+    "readMore": "Leer más",
+    "viewMore": "Ver más"
+  },
+  "menu": {
+    "home": "Página principal",
+    "treatments": "Tratamientos",
+    "news": "Novedades",
+    "webshop": "Tienda web",
+    "contact": "Contacto",
+    "book": "Reservar una cita",
+    "address": "Avenida Marítima 29 - 38530 - Candelaria, Santa Cruz de Tenerife - Spain - Teléfonos: +34 822 775 133 - ",
+    "emergency": "In case of emergency +34 693 931 717"
+  },
+  "home": {
+    "header": {
+      "title": "Maritima",
+      "subTitle": "Dental & Esthetics",
+      "bottomDescription": "Especialistas en odontología de avanzada junto a la estética como arte aplicada en un amplio rango de tratamientos."
+    },
+    "tenerife": {
+      "title": "Bienvenidos a Marítima",
+      "description1": "Ubicados en el corazón de Tenerife, Maritima Dental&Esthetics comenzó en 2007 como clínica dental.  Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología y Medicina Natural.",
+      "description2": "Respaldada por 25 años de experiencia profesional, la clínica alberga un extenso conocimiento dentro de su especialidad.",
+      "description3": "Dele un vistazo a los diferentes tratamientos que ofrecemos y siéntase libre de contactarnos.",
+      "description4": "Al hacer click en el botón de abajo, podrá realizar su cita para un tratamiento específico o primera consulta. Estaremos agradados de escuchar su historia personal y encontrar el plan de tratamiento adecuado según sus necesidades.",
+      "book": "Reservar una cita"
+    },
+    "about": {
+      "title": "Modo de trabajo",
+      "approach": {
+        "title": "Enfoque  personal",
+        "description": "Consideramos a nuestros pacientes como individuos cuyas emociones, aspiraciones y objetivos son únicos y por lo tanto requieren de nuestro acercamiento personalizado, provisto por nuestros servicios de primera clase y reconocidos profesionales."
+      },
+      "treatments": {
+        "title": "Amplio rango de tratamientos",
+        "description": "Desde los servicios Dentales completos, Estética facial y Medicina Natural, estamos aquí para ayudar."
+      },
+      "quality": {
+        "title": "Calidad garantizada",
+        "description": "Estamos orgullosos de garantizar que le será ofrecido lo mejor de cada procedimiento específico, ayudando a mejorar  y enriquecer su calidad de vida en los años venideros."
+      }
+    },
+    "treatments": {
+      "title": "Tratamientos",
+      "description": "En Dental ofrecemos tres tipos de tratamientos.  El primero el de cuidado Dental.  Segundo, una gama de lo que consideramos mejor y más efectivo en Tratamientos Estéticos y por último nuestro diverso y amplio espectro en Medicina Natural.",
+      "dental": {
+        "title": "Dental",
+        "description": "Desde simples controles a los más complejos tratamientos restauradores ofrecemos las últimas tecnologías."
+      },
+      "esthetics": {
+        "title": "Estética",
+        "description": "Desde Masajes a tratamientos cosméticos, Plasma rico en factores de crecimiento y Rellenos con Hialurónico, nuestros tratamientos estéticos le aseguran la mejor versión de si mismo."
+      },
+      "natural": {
+        "title": "Medicina Natural",
+        "description": "Nos dedicamos a dar a nuestros pacientes el estilo de vida que merecen, a través de nuestra experiencia y conocimiento de la medicina natural y la nutrición esencial."
+      }
+    },
+    "shop": {
+      "title": "Adquiere nuestros productos",
+      "buy": "Comprar",
+      "shopMore": "Comprar más"
+    },
+    "news": {
+      "title": "Nuestra novedades",
+      "moreNews": "Más novedades"
+    },
+    "appointment": {
+      "title": "Reserve una cita!",
+      "description1": "Venga a conocernos!  Reserve una cita gratuita con nosotros!",
+      "description2": "Estamos ubicados a 20 minutos del centro económico de Santa Cruz, en Tenerife.  Con gusto lo recibiremos en nuestra clínica.  Llámenos y le aseguramos que encontraremos justo lo adecuado para usted.",
+      "description3": "La clínica está abierta de",
+      "description4": "Lunes a Viernes de 09:00 a 20:00",
+      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
+      "description6": "Haz click en el botón abajo para enviarnos un correo electrónico",
+      "address": "Dirección",
+      "phone": "Teléfonos",
+      "reachOut": "Contáctanos"
+    }
+  },
+  "treatments": {
+    "description": "En Maritima, ofrecemos tres tipos de tratamientos. El primero, dental, Segundo, un amplio rango de tratamientos estéticos esenciales y por último, tratamientos complementarios en medicina natural. Encontrará más información acerca de todos ellos aquí.",
+    "dental": {
+      "all": "Todo Dentals",
+      "title": "Dental"
+    },
+    "esthetics": {
+      "all": "Todo Estéticas",
+      "title": "Estética"
+    },
+    "natural": {
+      "all": "Todo Medicina Naturals",
+      "title": "Medicina Natural"
+    },
+    "others": "Otros tratamientos en la categoría"
+  },
+  "news": {
+    "title": "Novedades"
+  },
+  "contact": {
+    "title": "Contacto",
+    "firstName": "Primer nombre",
+    "lastName": "Apellido",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "typeHere": "Escriba aquí",
+    "agree": "Sí, Estoy de acuerdo con los términos y servicios.",
+    "send": "Enviar",
+    "tankyou": "¡Gracias por su contacto!",
+    "reachOut": "En breve lo contactaremos.",
+    "appointment": {
+      "title": "Que saber mas",
+      "description1": "Venga a conocernos!  Reserve una cita gratuita con nosotros!",
+      "description2": "Estamos ubicados a 20 minutos del centro económico de Santa Cruz, en Tenerife.  Con gusto lo recibiremos en nuestra clínica.  Llámenos y le aseguramos que encontraremos justo lo adecuado para usted.",
+      "description3": "La clínica está abierta de",
+      "description4": "Lunes a Viernes de 09:00 a 20:00",
+      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
+      "address": "Dirección",
+      "phone": "Teléfonos",
+      "reachOut": "Contáctanos"
+    }
+  },
+  "footer": {
+    "logo": {
+      "title": "Maritima",
+      "subTitle": "Dental & Estética"
+    },
+    "about": {
+      "title": "Referencia",
+      "aboutUs": "Sobre nosotros",
+      "treatments": "Tratamientos",
+      "news": "Novedades",
+      "webshop": "Tienda web",
+      "contact": "Contacto"
+    },
+    "contact": {
+      "title": "Contacto",
+      "address1": "Av Maritima 29",
+      "address2": "Residencial Naiguata bloque Al",
+      "address3": "locales 2 y 3",
+      "address4": "Candelaria/Santa Cruz de Tenerife"
+    },
+    "social": {
+      "title": "Redes sociales"
+    }
+  }
+}

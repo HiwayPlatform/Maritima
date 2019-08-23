@@ -5,7 +5,7 @@
         <b-row>
           <b-col md="12">
             <div class="about-title">
-              <h2>The way we work</h2>
+              <h2>{{$t('home.about.title')}}</h2>
             </div>
           </b-col>
         </b-row>
@@ -17,11 +17,8 @@
                      src="~/assets/images/home/about/personal-approach.png"/>
               </div>
               <div class="item-description">
-                <h5>Personal Approach</h5>
-                <p>We consider our patients as individuals whose emotions,
-                  aspirations and objectives are unique and therefore require a dedicated
-                  and tailored approach, provided by our first-class services and
-                  recognised professionals.</p>
+                <h5>{{$t('home.about.approach.title')}}</h5>
+                <p>{{$t('home.about.approach.description')}}</p>
               </div>
             </div>
           </b-col>
@@ -32,9 +29,8 @@
                      src="~/assets/images/home/about/broad-range.png"/>
               </div>
               <div class="item-description">
-                <h5>Wide range of treatments</h5>
-                <p>From Dental services to Esthetics, to Natural Medicine,
-                  we are here to help you out. </p>
+                <h5>{{$t('home.about.treatments.title')}}</h5>
+                <p>{{$t('home.about.treatments.description')}}</p>
               </div>
             </div>
           </b-col>
@@ -45,10 +41,8 @@
                      src="~/assets/images/home/about/first-certificate.png"/>
               </div>
               <div class="item-description">
-                <h5>Guaranteed Quality</h5>
-                <p>We are proud to guarantee that you are offered the best of
-                  each specific procedure helping to improve
-                  the quality of your life for years to come.</p>
+                <h5>{{$t('home.about.quality.title')}}</h5>
+                <p>{{$t('home.about.quality.description')}}</p>
               </div>
             </div>
           </b-col>

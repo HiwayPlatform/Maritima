@@ -5,9 +5,11 @@
         <div class="active-news">
           <b-row>
             <b-col md="8">
-              <nuxt-link active-class="active" :to="'/news/item?id=' + items[0].id">
+              <nuxt-link active-class="active"
+                         :to="'/news/item?id=' + items[0]['id']">
                 <div class="news-image"
-                     :style="[items[0].image ? {backgroundImage: 'url('+items[0].image+')'} : '']"
+                     :style="[items[0]['image'] ?
+                     {backgroundImage: 'url('+items[0]['image']+')'} : '']"
                 >
                 </div>
               </nuxt-link>
@@ -15,11 +17,17 @@
             <b-col md="4">
               <div class="news-content">
                 <div class="news-content-title">
-                  <h2>{{items[0].title}}</h2>
+                  <h2>{{items[0]['contents'][$i18n.locale]['title']}}</h2>
                 </div>
                 <div class="news-content-description">
-                  <div v-html="items[0].short_description"></div>
-                  <small>{{items[0].published_at}} - {{items[0].author}}</small>
+                  <div
+                    v-html="items[0]['contents'][$i18n.locale]['short_description']">
+                  </div>
+                  <small>
+                    {{items[0]['published_at']}}
+                    -
+                    {{items[0]['author']}}
+                  </small>
                 </div>
               </div>
             </b-col>
@@ -28,18 +36,25 @@
         <div class="news-list">
           <b-row>
             <b-col md="4" v-for="(news, index) in items" :key="index">
-              <nuxt-link active-class="active" :to="'/news/item?id=' + news.id">
+              <nuxt-link active-class="active" :to="'/news/item?id=' + news['id']">
                 <div class="news-item">
                   <div class="news-image"
-                       :style="[news.image ? {backgroundImage: 'url('+news.image+')'} : '']">
+                       :style="[news['image'] ?
+                       {backgroundImage: 'url('+news['image']+')'} : '']">
                   </div>
                   <div class="news-content">
                     <div class="news-content-title">
-                      <h5>{{news.title}}</h5>
+                      <h5>{{news['contents'][$i18n.locale]['title']}}</h5>
                     </div>
                     <div class="news-content-description">
-                      <div v-html="news.short_description"></div>
-                      <small>{{news.published_at}} - {{news.author}}</small>
+                      <div
+                        v-html="news['contents'][$i18n.locale]['short_description']">
+                      </div>
+                      <small>
+                        {{news['published_at']}}
+                        -
+                        {{news['author']}}
+                      </small>
                     </div>
                   </div>
                 </div>
@@ -56,7 +71,7 @@
           <a href="#"
              class="button-extend-normal-round"
              :class="{disabled: disableLoadMore}"
-             @click="loadMore">View More</a>
+             @click="loadMore">{{$t('common.viewMore')}}</a>
         </div>
       </template>
       <div style="margin-top:180px" v-else>

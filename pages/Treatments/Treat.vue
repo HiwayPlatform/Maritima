@@ -1,6 +1,7 @@
 <template>
   <div id="page_treatments" class="main">
-    <app-page-treatments-header :title="title"/>
+    <app-page-treatments-header
+      :title="activeSlide ? activeSlide[$i18n.locale].title : ''"/>
     <app-page-treatments-treat-content :treatment="treatment"/>
   </div>
 </template>
@@ -20,7 +21,7 @@
     },
     data() {
       return {
-        title: '',
+        activeSlide: null,
         treatment: {}
       };
     },
@@ -29,7 +30,7 @@
         if (this.$route.query.id) {
           const result = await this.$axios.$get(`/treatments/?id=${this.$route.query.id}`);
           this.treatment = result.data;
-          this.title = this.treatment.title;
+          this.activeSlide = this.treatment.contents;
         }
       }
     },
@@ -49,12 +50,12 @@
     mounted() {
       paintCommon();
       this.loadData();
-      this.$bus.$on('set:title', (title) => {
-        this.title = title;
+      this.$bus.$on('set:active-slide', (contents) => {
+        this.activeSlide = contents;
       });
     },
     beforeDestroy() {
-      this.$bus.$off('set:title');
+      this.$bus.$off('set:active-slide');
     },
     layout: 'default',
     head: {

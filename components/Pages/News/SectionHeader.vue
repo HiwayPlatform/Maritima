@@ -3,7 +3,7 @@
     <div class="container h-100 position-relative">
       <div class="v-middle_wrap">
         <div class="headline v-middle">
-          <h1>{{title}}</h1>
+          <h1>{{title === 'News' ? $t('news.title') : title }}</h1>
         </div>
       </div>
     </div>

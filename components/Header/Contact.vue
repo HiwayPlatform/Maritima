@@ -2,8 +2,7 @@
   <div class="app-header_contact">
     <div class="container v-middle_wrap">
       <div class="v-middle">
-        Avenida Marítima 29 - 38530 - Candelaria, Santa Cruz de Tenerife - Spain - Phone: +34 822 775 133 - <strong>In
-        case of emergency: +34 693 931 717</strong>
+        {{$t('menu.address')}} <strong>{{$t('menu.emergency')}}</strong>
       </div>
     </div>
   </div>
