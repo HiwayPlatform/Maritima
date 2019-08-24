@@ -17,5 +17,8 @@
 
   export default {
     components: {AppFooter, AppHeader},
+    mounted() {
+      this.$root.$i18n.locale='es';
+    }
   }
 </script>
