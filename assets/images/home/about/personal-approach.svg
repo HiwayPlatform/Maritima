@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148.999" height="138.134" viewBox="0 0 148.999 138.134">
+    <defs>
+        <style>
+            .cls-1{fill:#c0e4da}.cls-2{fill:#fff}.cls-3{fill:#404040}.cls-4{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Path_169" d="M0-26.5h35.344v-43.467H0z" class="cls-1" data-name="Path 169" transform="translate(0 69.967)"/>
+        </clipPath>
+    </defs>
+    <g id="Group_290" data-name="Group 290" transform="translate(-519 -2206)">
+        <g id="Group_282" data-name="Group 282" transform="translate(-6 3)">
+            <circle id="Ellipse_21" cx="59.5" cy="59.5" r="59.5" class="cls-2" data-name="Ellipse 21" transform="translate(540 2203)"/>
+            <g id="Group_269" data-name="Group 269" transform="translate(43 -40.438)">
+                <path id="Path_147" d="M29.646 0a29.646 29.646 0 0 1 29.646 29.646c0 16.373-59.292 16.373-59.292 0A29.646 29.646 0 0 1 29.646 0z" class="cls-3" data-name="Path 147" transform="translate(482 2339.646)"/>
+                <circle id="Ellipse_14" cx="13.657" cy="13.657" r="13.657" class="cls-3" data-name="Ellipse 14" transform="translate(497.989 2309)"/>
+                <g id="Group_234" data-name="Group 234" transform="translate(571.708 2309)">
+                    <path id="Path_148" d="M29.646 0a29.646 29.646 0 0 1 29.646 29.646c0 16.373-59.292 16.373-59.292 0A29.646 29.646 0 0 1 29.646 0z" class="cls-3" data-name="Path 148" transform="translate(0 30.646)"/>
+                    <circle id="Ellipse_15" cx="13.657" cy="13.657" r="13.657" class="cls-3" data-name="Ellipse 15" transform="translate(15.989)"/>
+                </g>
+            </g>
+        </g>
+        <g id="Group_284" class="cls-4" data-name="Group 284" transform="translate(575.656 2233)">
+            <g id="Group_283" data-name="Group 283">
+                <path id="Path_168" d="M-15.028-.033a12.823 12.823 0 0 0-4.128 1.138 7 7 0 0 1-6.284.057 11.493 11.493 0 0 0-7.473-1 8.62 8.62 0 0 0-6.957 7.113 15.417 15.417 0 0 0 2.28 11.454 14.721 14.721 0 0 1 1.23 2.5l.065.156a2.055 2.055 0 0 1 .021.56l-.007.228a53.871 53.871 0 0 0 .832 11.522c.416 2.134 2.476 8.057 4.876 9.381.011.006.022 0 .032.01s.018.016.029.021a2.923 2.923 0 0 0 1.2.276 2.529 2.529 0 0 0 1.487-.493c3.286-2.335 3.54-8.628 3.559-9.865a1.932 1.932 0 0 1 1.742-1.957 1.892 1.892 0 0 1 1.8 1.972c.018 1.223.273 7.516 3.558 9.85a2.53 2.53 0 0 0 1.487.493 2.925 2.925 0 0 0 1.2-.276.92.92 0 0 0 .111-.06 9.231 9.231 0 0 0 3.295-4.122 23.557 23.557 0 0 0 1.875-6.943c.3-2.339.573-8.932.54-9.954a3.46 3.46 0 0 1 .453-1.854l.205-.342a11.021 11.021 0 0 1 .6-1.011 14.854 14.854 0 0 0 2.615-9.13 10.85 10.85 0 0 0-1.357-5.413 9.193 9.193 0 0 0-8.886-4.311" class="cls-1" data-name="Path 168" transform="translate(40.128 .086)"/>
+            </g>
+        </g>
+    </g>
+</svg>
