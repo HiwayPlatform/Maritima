@@ -10,7 +10,7 @@
     "webshop": "Tienda web",
     "contact": "Contacto",
     "book": "Reservar una cita",
-    "address": "Avenida Marítima 29 - 38530 - Candelaria, Santa Cruz de Tenerife - Spain - Teléfonos: +34 822 775 133 - ",
+    "address": "Avenida Marítima 29 - 38530 - Candelaria, Santa Cruz de Tenerife - España - Teléfonos: +34 822 775 133 - ",
     "emergency": "En caso de emergencia +34 693 931 717"
   },
   "home": {
@@ -73,7 +73,7 @@
       "description2": "Estamos ubicados a 20 minutos del centro económico de Santa Cruz, en Tenerife.  Con gusto lo recibiremos en nuestra clínica.  Llámenos y le aseguramos que encontraremos justo lo adecuado para usted.",
       "description3": "La clínica está abierta de",
       "description4": "Lunes a Viernes de 09:00 a 20:00",
-      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
+      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, España",
       "description6": "Haz click en el botón abajo para enviarnos un correo electrónico",
       "address": "Dirección",
       "phone": "Teléfonos",
@@ -83,15 +83,15 @@
   "treatments": {
     "description": "En Maritima, ofrecemos tres tipos de tratamientos. El primero, dental, Segundo, un amplio rango de tratamientos estéticos esenciales y por último, tratamientos complementarios en medicina natural. Encontrará más información acerca de todos ellos aquí.",
     "dental": {
-      "all": "Todo Dentals",
+      "all": "Dentals",
       "title": "Dental"
     },
     "esthetics": {
-      "all": "Todo Estéticas",
+      "all": "Estéticas",
       "title": "Estética"
     },
     "natural": {
-      "all": "Todo Medicina Naturals",
+      "all": "Medicina Naturals",
       "title": "Medicina Natural"
     },
     "others": "Otros tratamientos en la categoría"
@@ -117,7 +117,7 @@
       "description2": "Estamos ubicados a 20 minutos del centro económico de Santa Cruz, en Tenerife.  Con gusto lo recibiremos en nuestra clínica.  Llámenos y le aseguramos que encontraremos justo lo adecuado para usted.",
       "description3": "La clínica está abierta de",
       "description4": "Lunes a Viernes de 09:00 a 20:00",
-      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
+      "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, España",
       "address": "Dirección",
       "phone": "Teléfonos",
       "reachOut": "Contáctanos"
