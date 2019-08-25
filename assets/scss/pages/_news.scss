@@ -14,15 +14,19 @@
     .headline {
       position: relative;
       z-index: 1;
+      text-align: center;
 
       h1 {
+        margin: 0 auto;
         margin-top: -110px;
         font-size: $font-size-x5-large;
         color: $color-light-black;
         font-weight: bold;
+        width: 70%;
         @include media-breakpoint-down(sm) {
           margin-top: -80px;
           font-size: $font-size-x3-large;
+          width: 100%
         }
       }
     }
