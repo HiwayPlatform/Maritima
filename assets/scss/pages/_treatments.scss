@@ -200,6 +200,7 @@
         margin-top: 80px;
         @include media-breakpoint-down(sm) {
           display: block;
+          text-align: justify;
         }
         &-item {
           flex: 1;
@@ -218,6 +219,10 @@
             @include media-breakpoint-down(sm) {
               max-width: none;
             }
+          }
+          &:not(:last-child) {
+            display: inline-block;
+            width: 50%;
           }
         }
       }
