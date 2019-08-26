@@ -191,6 +191,9 @@
         max-width: 717px;
         margin: 0 auto;
         margin-top: 40px;
+        @include media-breakpoint-down(sm) {
+          text-align: justify;
+        }
       }
 
       &-specs {
@@ -200,7 +203,6 @@
         margin-top: 80px;
         @include media-breakpoint-down(sm) {
           display: block;
-          text-align: justify;
         }
         &-item {
           flex: 1;
