@@ -198,6 +198,9 @@
         max-width: 800px;
         margin: 0 auto;
         margin-top: 80px;
+        @include media-breakpoint-down(sm) {
+          display: block;
+        }
         &-item {
           flex: 1;
           &-image {
@@ -212,6 +215,9 @@
             margin: 0 auto;
             margin-top: 15px;
             font-size: $font-size-small;
+            @include media-breakpoint-down(sm) {
+              max-width: none;
+            }
           }
         }
       }
