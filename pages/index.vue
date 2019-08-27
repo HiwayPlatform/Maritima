@@ -1,35 +1,35 @@
 <template>
   <div id="page_home" class="main">
-    <app-page-home-header/>
-    <app-page-home-tenerife/>
-    <app-page-home-about/>
-    <app-page-home-treatments :categories="categories"/>
-    <app-page-home-shop :products="products"/>
-    <app-page-home-news :news="news"/>
-    <app-page-home-appointment/>
+    <!--<app-page-home-header/>-->
+    <!--<app-page-home-tenerife/>-->
+    <!--<app-page-home-about/>-->
+    <!--<app-page-home-treatments :categories="categories"/>-->
+    <!--<app-page-home-shop :products="products"/>-->
+    <!--<app-page-home-news :news="news"/>-->
+    <!--<app-page-home-appointment/>-->
   </div>
 </template>
 
 <script>
-  import {paintCommon} from "~/assets/js/animate";
-  import AppPageHomeHeader from "~/components/Pages/Home/SectionHeader";
-  import AppPageHomeTenerife from "~/components/Pages/Home/SectionTenerife";
-  import AppPageHomeAbout from "~/components/Pages/Home/SectionAbout";
-  import AppPageHomeTreatments from "~/components/Pages/Home/SectionTreatments";
-  import AppPageHomeShop from "~/components/Pages/Home/SectionShop";
-  import AppPageHomeNews from "~/components/Pages/Home/SectionNews";
-  import AppPageHomeAppointment from "~/components/Pages/Home/SectionAppointment";
+  // import {paintCommon} from "~/assets/js/animate";
+  // import AppPageHomeHeader from "~/components/Pages/Home/SectionHeader";
+  // import AppPageHomeTenerife from "~/components/Pages/Home/SectionTenerife";
+  // import AppPageHomeAbout from "~/components/Pages/Home/SectionAbout";
+  // import AppPageHomeTreatments from "~/components/Pages/Home/SectionTreatments";
+  // import AppPageHomeShop from "~/components/Pages/Home/SectionShop";
+  // import AppPageHomeNews from "~/components/Pages/Home/SectionNews";
+  // import AppPageHomeAppointment from "~/components/Pages/Home/SectionAppointment";
 
   export default {
     name: "app-page-home",
     components: {
-      AppPageHomeTenerife,
-      AppPageHomeHeader,
-      AppPageHomeAbout,
-      AppPageHomeTreatments,
-      AppPageHomeShop,
-      AppPageHomeNews,
-      AppPageHomeAppointment
+      // AppPageHomeTenerife,
+      // AppPageHomeHeader,
+      // AppPageHomeAbout,
+      // AppPageHomeTreatments,
+      // AppPageHomeShop,
+      // AppPageHomeNews,
+      // AppPageHomeAppointment
     },
     data() {
       return {
@@ -49,7 +49,7 @@
     mounted() {
       // paintCommon();
       this.loadData();
-      this.$store.commit('background/default');
+      // this.$store.commit('background/default');
     },
     layout: 'default',
     head: {

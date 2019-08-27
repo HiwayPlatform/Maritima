@@ -33,13 +33,13 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    "~plugins/global.js",
+    // "~plugins/global.js",
     "~plugins/axios",
-    {src: "~plugins/slick-slide.js", ssr: false},
-    {src: "~/plugins/vuex-persist", ssr: false},
+    // {src: "~plugins/slick-slide.js", ssr: false},
+    // {src: "~/plugins/vuex-persist", ssr: false},
     "~/plugins/eventBus",
-    "~/plugins/spinner",
-    "~/plugins/i18n.js"
+    // "~/plugins/spinner",
+    // "~/plugins/i18n.js"
   ],
   /*
   ** Nuxt.js modules
