@@ -35,11 +35,12 @@ module.exports = {
   plugins: [
     // "~plugins/global.js",
     "~plugins/axios",
-    {src: "~plugins/slick-slide.js", ssr: false},
+    {src: "~plugins/slick-slide", ssr: false},
     {src: "~/plugins/vuex-persist", ssr: false},
+    "~/plugins/gmaps",
     "~/plugins/eventBus",
     "~/plugins/spinner",
-    "~/plugins/i18n.js"
+    "~/plugins/i18n"
   ],
   /*
   ** Nuxt.js modules
