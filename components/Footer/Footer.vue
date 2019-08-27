@@ -17,39 +17,34 @@
           <b-col sm="6" class="footer-left d-flex">
             <div class="footer-left-about">
               <h5>{{$t('footer.about.title')}}</h5>
-              <p>
-                <nuxt-link
-                  active-class="active"
-                  to="/home"
-                  class="nav-link">{{$t('footer.about.aboutUs')}}</nuxt-link>
-              </p>
-              <p>
-                <nuxt-link
-                  active-class="active"
-                  to="/treatments"
-                  class="nav-link">{{$t('footer.about.treatments')}}</nuxt-link>
-              </p>
-              <p>
-                <nuxt-link
-                  active-class="active"
-                  to="/news"
-                  class="nav-link">{{$t('footer.about.news')}}</nuxt-link>
-              </p>
-              <p>
-                <a href="https://webshop.dentalesthetics.es/"
-                   class="nav-link">{{$t('footer.about.webshop')}}</a></p>
-              <p>
-                <nuxt-link
-                  active-class="active"
-                  to="/contact"
-                  class="nav-link">{{$t('footer.about.contact')}}</nuxt-link>
-              </p>
+              <nuxt-link
+                active-class="active"
+                to="/home"
+                class="nav-link">{{$t('footer.about.aboutUs')}}
+              </nuxt-link>
+              <nuxt-link
+                active-class="active"
+                to="/treatments"
+                class="nav-link">{{$t('footer.about.treatments')}}
+              </nuxt-link>
+              <nuxt-link
+                active-class="active"
+                to="/news"
+                class="nav-link">{{$t('footer.about.news')}}
+              </nuxt-link>
+              <a href="https://webshop.dentalesthetics.es/"
+                 class="nav-link">{{$t('footer.about.webshop')}}</a></p>
+              <nuxt-link
+                active-class="active"
+                to="/contact"
+                class="nav-link">{{$t('footer.about.contact')}}
+              </nuxt-link>
             </div>
             <div class="footer-left-contact">
               <h5>{{$t('footer.contact.title')}}</h5>
-              <p>
-                <a href="mailto:citas@dentalesthetics.es">
-                  citas@dentalesthetics.es</a><br/>+34 674354930</p>
+              <a href="mailto:citas@dentalesthetics.es">
+                citas@dentalesthetics.es</a>
+              <p>+34 674354930</p>
               <p>
                 {{$t('footer.contact.address1')}}<br/>
                 {{$t('footer.contact.address2')}}<br/>

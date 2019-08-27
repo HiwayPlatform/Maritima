@@ -39,17 +39,19 @@
 
     .footer-left {
       padding-top: 10px;
-    }
-
-    .footer-left-about {
-      flex: 1;
       a {
         padding: 0;
         color: $color-light-black;
+        font-size: $font-size-x2-small;
+        margin-bottom: 11px;
         &:hover {
           font-weight: bolder;
         }
       }
+    }
+
+    .footer-left-about {
+      flex: 1;
     }
 
     .footer-left-contact {
@@ -71,6 +73,9 @@
       img{
         width:15px;
         opacity:0.7;
+      }
+      a {
+        font-size: $font-size-x2-small;
       }
     }
   }
