@@ -1,3 +1,6 @@
+const webpack = require('webpack')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+
 module.exports = {
   mode: 'universal',
   /*
@@ -36,7 +39,7 @@ module.exports = {
     // "~plugins/global.js",
     "~plugins/axios",
     {src: "~plugins/slick-slide", ssr: false},
-    {src: "~/plugins/vuex-persist", ssr: false},
+    // {src: "~/plugins/vuex-persist", ssr: false},
     "~/plugins/gmaps",
     "~/plugins/eventBus",
     "~/plugins/spinner",
@@ -51,7 +54,7 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     ['@nuxtjs/axios', {
       baseURL: process.env.NODE_ENV === 'development' ?
-        'https://dentalesthetics.es/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
+        'http://local.dental.com/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
     }]
   ],
   /*
@@ -70,5 +73,12 @@ module.exports = {
     */
     extend(config, ctx) {
     },
+    plugins: [
+      new UglifyJsPlugin({
+        sourceMap: true,
+        cache: true,
+        parallel: true
+      })
+    ]
   }
 }
