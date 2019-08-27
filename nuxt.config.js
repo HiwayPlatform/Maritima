@@ -35,10 +35,10 @@ module.exports = {
   plugins: [
     // "~plugins/global.js",
     "~plugins/axios",
-    // {src: "~plugins/slick-slide.js", ssr: false},
-    // {src: "~/plugins/vuex-persist", ssr: false},
+    {src: "~plugins/slick-slide.js", ssr: false},
+    {src: "~/plugins/vuex-persist", ssr: false},
     "~/plugins/eventBus",
-    // "~/plugins/spinner",
+    "~/plugins/spinner",
     "~/plugins/i18n.js"
   ],
   /*
