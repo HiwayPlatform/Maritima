@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import {paintCommon} from "~/assets/js/animate";
+  // import {paintCommon} from "~/assets/js/animate";
   import AppPageTreatmentsHeader from "~/components/Pages/Treatments/SectionHeader";
   import AppPageTreatmentsMenu from "~/components/Pages/Treatments/SectionMenuBar";
   import AppPageTreatmentsNaturalContent from "~/components/Pages/Treatments/SectionNaturalMedicine";

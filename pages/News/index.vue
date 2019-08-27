@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import {paintCommon} from "~/assets/js/animate";
+  // import {paintCommon} from "~/assets/js/animate";
   import AppPageNewsHeader from "~/components/Pages/News/SectionHeader";
   import AppPageNewsList from "~/components/Pages/News/SectionList";
 

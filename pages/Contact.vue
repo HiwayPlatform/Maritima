@@ -6,7 +6,7 @@
 </template>
 
 <script>
-  import {paintCommon} from "~/assets/js/animate";
+  // import {paintCommon} from "~/assets/js/animate";
   import AppPageContactForm from "~/components/Pages/Contact/SectionForm";
   import AppPageContactAppointment from "~/components/Pages/Contact/SectionAppointment";
 

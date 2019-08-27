@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import {paintCommon} from "~/assets/js/animate";
+  // import {paintCommon} from "~/assets/js/animate";
   import AppPageNewsHeader from "~/components/Pages/News/SectionHeader";
   import AppPageNewsItemContent from "~/components/Pages/News/SectionItem";
 
