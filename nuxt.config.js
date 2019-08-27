@@ -50,7 +50,7 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     ['@nuxtjs/axios', {
       baseURL: process.env.NODE_ENV === 'development' ?
-        'http://local.dental.com/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
+        'https://dentalesthetics.es/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
     }]
   ],
   /*
