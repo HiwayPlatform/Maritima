@@ -33,7 +33,7 @@
                 class="nav-link">{{$t('footer.about.news')}}
               </nuxt-link>
               <a href="https://webshop.dentalesthetics.es/"
-                 class="nav-link">{{$t('footer.about.webshop')}}</a></p>
+                 class="nav-link">{{$t('footer.about.webshop')}}</a>
               <nuxt-link
                 active-class="active"
                 to="/contact"
@@ -45,12 +45,11 @@
               <a href="mailto:citas@dentalesthetics.es">
                 citas@dentalesthetics.es</a>
               <p>+34 674354930</p>
-              <p>
-                {{$t('footer.contact.address1')}}<br/>
-                {{$t('footer.contact.address2')}}<br/>
-                {{$t('footer.contact.address3')}}<br/>
-                {{$t('footer.contact.address4')}}<br/>
-                38530</p>
+              <p>{{$t('footer.contact.address1')}}</p>
+              <p>{{$t('footer.contact.address2')}}</p>
+              <p>{{$t('footer.contact.address3')}}</p>
+              <p>{{$t('footer.contact.address4')}}</p>
+              <p>38530</p>
             </div>
           </b-col>
           <b-col offset-sm="4" sm="2" class="footer-right">

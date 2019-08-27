@@ -59,6 +59,9 @@
       @include media-breakpoint-down(sm) {
         flex: 1;
       }
+      p {
+        margin: 0;
+      }
     }
 
     .footer-right-content{
