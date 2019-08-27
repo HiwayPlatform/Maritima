@@ -9,7 +9,7 @@
     "news": "Novedades",
     "webshop": "Tienda web",
     "contact": "Contacto",
-    "book": "Reservar una cita",
+    "book": "Reserve una cita",
     "address": "Avenida Marítima 29 - 38530 - Candelaria, Santa Cruz de Tenerife - España - Teléfonos: +34 822 775 133 - ",
     "emergency": "En caso de emergencia +34 693 931 717"
   },
@@ -21,21 +21,21 @@
     },
     "tenerife": {
       "title": "Bienvenidos a Marítima",
-      "description1": "Ubicados en el corazón de Tenerife, Marítima  Dental & Esthetics comenzó en 2007 como clínica dental. Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología,  complementando con el área de Estética y Medicina Natural.",
-      "description2": "Nuestros profesionales tienen un extenso conocimiento dentro de cada  especialidad. La clínica está respaldada por 25 años de experiencia.",
-      "description3": "Explora los diferentes tratamientos que ofrecemos y no dudes en contactarnos si deseas más información.",
-      "description4": "A través de esta página podrá realizar su cita para una primera consulta o tratamiento específico. Estaremos encantados de escuchar su historia personal y encontrar el plan de tratamiento adecuado según sus necesidades.",
-      "book": "Reservar una cita"
+      "description1": "Ubicados en el corazón de Tenerife, Marítima  Dental & Esthetics comenzó en 2007 como clínica dental. Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología,  complementando con el área de Estética y Medicina Natural, más cercano al concepto de salud integral.",
+      "description2": "Nuestros equipo tiene un extenso conocimiento dentro de cada especialidad. La clínica está respaldada por 25 años de experiencia profesional.",
+      "description3": "Explore los diferentes tratamientos que ofrecemos y no dude en contactarnos si desea más información.",
+      "description4": "A través de esta página podrá realizar su cita para una primera consulta o tratamiento específico. Estaremos encantados de escuchar su historia personal y encontrar el plan de tratamiento adecuado a sus necesidades.",
+      "book": "Reserve una cita"
     },
     "about": {
       "title": "Nuestra manera de trabajar",
       "approach": {
         "title": "Enfoque  personal",
-        "description": "Consideramos a nuestros pacientes como individuos cuyas emociones, aspiraciones y objetivos son únicos, por lo tanto requieren de un acercamiento personalizado, provisto por nuestros equipo de profesionales y servicios de primera."
+        "description": "Consideramos a nuestros pacientes como individuos cuyas emociones, aspiraciones y objetivos son únicos, por tanto requieren de un acercamiento personalizado, provisto por nuestro equipo de profesionales y servicios de primera."
       },
       "treatments": {
         "title": "Amplio rango de tratamientos",
-        "description": "Desde los servicios completos en Odontología, tanto general como especializada,  Estética facial y Medicina Natural, estamos aquí para ayudar. Atendemos pacientes de todas las edades."
+        "description": "Desde todos los servicios en Odontología, tanto general como especializada,  Estética facial y Medicina Natural, estamos para ayudar. "
       },
       "quality": {
         "title": "Calidad garantizada",
@@ -44,14 +44,14 @@
     },
     "treatments": {
       "title": "Tratamientos",
-      "description": "En Dental Esthetics ofrecemos una amplia gama de tratamientos: Odontología,  Estética facial y corporal, Fisioterapia, Osteopatía, y Terapias Holísticas.  Todo complementado con productos naturales.",
+      "description": "En Dental Esthetics ofrecemos una amplia gama de tratamientos en diversas áreas: Odontología,  Estética facial y corporal, Fisioterapia, Osteopatía, y Terapias Holísticas.  Todo complementado con productos naturales.",
       "dental": {
         "title": "Odontología",
         "description": "Desde la prevención a los más complejos tratamientos restauradores, ofrecemos las últimas tecnologías."
       },
       "esthetics": {
         "title": "Estética",
-        "description": "Desde limpiezas faciales a tratamientos cosméticos o anti arrugas como plasma rico en factores de crecimiento y rellenos con Acido Hialurónico,  nuestros tratamientos estéticos le aseguran la mejor versión de sí mismo."
+        "description": "Desde limpiezas faciales a tratamientos cosméticos o anti arrugas como la aplicación de plasma rico en factores de crecimiento y rellenos con Acido Hialurónico,  nuestros tratamientos estéticos le aseguran la mejor versión de sí mismo."
       },
       "natural": {
         "title": "Medicina Natural",
@@ -70,11 +70,11 @@
     "appointment": {
       "title": "Reserve una cita!",
       "description1": "Venga a conocernos!  Reserve una cita gratuita con nosotros!",
-      "description2": "Estamos ubicados a 20 minutos del centro económico de Santa Cruz, en Tenerife.  Con gusto lo recibiremos en nuestra clínica. Llámenos y le aseguramos que encontraremos justo lo adecuado para usted.",
-      "description3": "Horario",
-      "description4": "Lunes a Viernes de 09:00 a 20:00",
+      "description2": "Estamos ubicados a solo 20 minutos del centro económico de Santa Cruz, en Tenerife. Con gusto lo recibiremos en nuestra clínica. Llámenos o visítenos y nos aseguraremos de encontrar el tratamiento adecuado para sus necesidades.",
+      "description3": "Nuestra clínica abre:",
+      "description4": "De Lunes a Viernes de 09:00 a 20:00 hs. Sábados previa cita.",
       "description5": "Avenida Marítima 29, Residencial Naiguatá, bloque A1, locales 2 y 3. Apartado postal 38530 Candelaria, Santa Cruz de Tenerife,  España",
-      "description6": "Haz click en el botón abajo para enviarnos un correo electrónico",
+      "description6": "Envíenos un correo electrónico aquí",
       "address": "Dirección",
       "phone": "Teléfonos",
       "reachOut": "Contáctanos"
@@ -114,9 +114,9 @@
     "appointment": {
       "title": "Que saber mas",
       "description1": "Venga a conocernos!  Reserve una cita gratuita con nosotros!",
-      "description2": "Estamos ubicados a 20 minutos del centro económico de Santa Cruz, en Tenerife.  Con gusto lo recibiremos en nuestra clínica. Llámenos y le aseguramos que encontraremos justo lo adecuado para usted.",
-      "description3": "Horario",
-      "description4": "Lunes a Viernes de 09:00 a 20:00",
+      "description2": "Estamos ubicados a solo 20 minutos del centro económico de Santa Cruz, en Tenerife. Con gusto lo recibiremos en nuestra clínica. Llámenos o visítenos y nos aseguraremos de encontrar el tratamiento adecuado para sus necesidades.",
+      "description3": "Nuestra clínica abre:",
+      "description4": "De Lunes a Viernes de 09:00 a 20:00 hs. Sábados previa cita.",
       "description5": "Avenida Marítima 29, Residencial Naiguatá, bloque A1, locales 2 y 3. Apartado postal 38530 Candelaria, Santa Cruz de Tenerife,  España",
       "address": "Dirección",
       "phone": "Teléfonos",
