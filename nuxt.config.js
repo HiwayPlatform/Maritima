@@ -39,7 +39,7 @@ module.exports = {
     // {src: "~/plugins/vuex-persist", ssr: false},
     "~/plugins/eventBus",
     // "~/plugins/spinner",
-    // "~/plugins/i18n.js"
+    "~/plugins/i18n.js"
   ],
   /*
   ** Nuxt.js modules
