@@ -1,7 +1,7 @@
 <template>
   <section class="treatments-content">
     <div class="container">
-      <b-row v-if="Object.keys(treatments)">
+      <b-row v-if="treatments.length > 0">
         <b-col lg="3" md="6"
                v-for="(treatment, index) in treatments"
                :key="index">
