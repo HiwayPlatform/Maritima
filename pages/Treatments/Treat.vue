@@ -48,7 +48,7 @@
       },
     },
     mounted() {
-      paintCommon();
+      // paintCommon();
       this.loadData();
       this.$bus.$on('set:active-slide', (contents) => {
         this.activeSlide = contents;

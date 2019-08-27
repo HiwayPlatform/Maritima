@@ -40,14 +40,14 @@
     },
     methods: {
       async loadData() {
-        const result  = await this.$axios.$get('/home');
+        const result = await this.$axios.$get('/home');
         this.products = result.data.products;
         this.categories = result.data.categories;
         this.news = result.data.news;
       }
     },
     mounted() {
-      paintCommon();
+      // paintCommon();
       this.loadData();
       this.$store.commit('background/default');
     },

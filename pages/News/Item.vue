@@ -46,7 +46,7 @@
       },
     },
     mounted() {
-      paintCommon();
+      // paintCommon();
       this.loadData();
       this.$store.commit('background/default');
       this.$bus.$on('set:active-slide', (contents) => {

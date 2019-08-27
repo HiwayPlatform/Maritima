@@ -25,7 +25,7 @@
       };
     },
     mounted() {
-      paintCommon();
+     // paintCommon();
       this.$store.commit('background/set', this.backgroundColor);
     },
     layout: 'default',
