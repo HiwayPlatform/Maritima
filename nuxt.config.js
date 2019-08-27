@@ -33,7 +33,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    // "~plugins/global.js",
+    "~plugins/global.js",
     "~plugins/axios",
     {src: "~plugins/slick-slide", ssr: false},
     // {src: "~/plugins/vuex-persist", ssr: false},
