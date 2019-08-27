@@ -19,7 +19,7 @@
   background: $color-app-primary;
   height: $height-header_navigation;
   position: relative;
-  z-index: 1;
+  z-index: 1000;
 
   .navbar {
     padding: 0;
