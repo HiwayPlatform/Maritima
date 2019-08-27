@@ -1,6 +1,3 @@
-const webpack = require('webpack')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-
 module.exports = {
   mode: 'universal',
   /*
@@ -72,13 +69,6 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-    },
-    plugins: [
-      new UglifyJsPlugin({
-        sourceMap: true,
-        cache: true,
-        parallel: true
-      })
-    ]
+    }
   }
 }
