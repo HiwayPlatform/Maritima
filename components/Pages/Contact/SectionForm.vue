@@ -73,8 +73,8 @@
       </b-form>
       <template v-else>
         <div class="mt-5 text-center">
-          <h3>{{$('contact.thankyou')}}</h3>
-          <h3>{{$('contact.reachOut')}}</h3>
+          <h3>{{ $t('contact.thankyou') }}</h3>
+          <h3>{{ $t('contact.reachOut') }}</h3>
         </div>
       </template>
     </div>
