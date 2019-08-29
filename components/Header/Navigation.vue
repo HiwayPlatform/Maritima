@@ -4,8 +4,8 @@
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand
-          href="/"><img
-          src="~/assets/images/logo.svg">
+          href="/">
+          <img src="~/assets/images/logo.svg" alt="Logo">
         </b-navbar-brand>
         <b-navbar-toggle
           target="nav-collapse"></b-navbar-toggle>

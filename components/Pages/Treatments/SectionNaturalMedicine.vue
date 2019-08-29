@@ -7,7 +7,7 @@
                :key="index">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/treatments/natural-medicine.svg"/>
+              <img src="~/assets/images/treatments/natural-medicine.svg" alt="Natural Medicine"/>
             </div>
             <div class="item-description">
               <h5>{{treatment['contents'][$i18n.locale]['title']}}</h5>

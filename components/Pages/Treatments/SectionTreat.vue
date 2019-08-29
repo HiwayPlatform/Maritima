@@ -17,13 +17,13 @@
                     <div class="slider-item-image">
                       <img v-if="treatment['category'] === 'dental'"
                            src="~/assets/images/treatments/dental.svg"
-                           alt="treatment image">
+                           alt="Time">
                       <img v-if="treatment['category'] === 'esthetics'"
                            src="~/assets/images/treatments/esthetics.svg"
-                           alt="treatment image">
+                           alt="Price">
                       <img v-if="treatment['category'] === 'natural-medicine'"
                            src="~/assets/images/treatments/natural-medicine.svg"
-                           alt="treatment image">
+                           alt="Description">
                     </div>
                     <div class="slider-item-description"
                          v-html="item['contents'][$i18n.locale]['long_description']">
@@ -34,9 +34,9 @@
                            v-for="(spec, i) in item['contents'][$i18n.locale]['specs']"
                            :key="i">
                         <div class="slider-item-specs-item-image">
-                          <img v-if="i===0" src="~/assets/images/icons/clock.svg"/>
-                          <img v-if="i===1" src="~/assets/images/icons/kassa.svg"/>
-                          <img v-if="i===2" src="~/assets/images/icons/extra.svg"/>
+                          <img v-if="i===0" src="~/assets/images/icons/clock.svg" alt="Clock"/>
+                          <img v-if="i===1" src="~/assets/images/icons/kassa.svg" alt="Kassa"/>
+                          <img v-if="i===2" src="~/assets/images/icons/extra.svg" alt="Extra"/>
                         </div>
                         <div class="slider-item-specs-item-description"
                              v-html="spec">
@@ -62,13 +62,13 @@
               <div class="item-image">
                 <img v-if="treatment['category'] === 'dental'"
                      src="~/assets/images/treatments/dental.svg"
-                     alt="treatment image">
+                     alt="Dental">
                 <img v-if="treatment['category'] === 'esthetics'"
                      src="~/assets/images/treatments/esthetics.svg"
-                     alt="treatment image">
+                     alt="Esthetics">
                 <img v-if="treatment['category'] === 'natural-medicine'"
                      src="~/assets/images/treatments/natural-medicine.svg"
-                     alt="treatment image">
+                     alt="Natural Medicine">
               </div>
               <div class="item-description">
                 <h5>{{item['contents'][$i18n.locale]['title']}}</h5>

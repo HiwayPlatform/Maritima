@@ -56,9 +56,9 @@
       title: 'Home',
       meta: [
         {
-          hid: 'description',
-          name: 'description',
-          content: 'Your next web design and development team'
+          hid: 'Maritima',
+          name: 'Maritima',
+          content: 'Maritima Dental & Esthetics'
         }
       ]
     }

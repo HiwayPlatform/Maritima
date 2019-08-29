@@ -5,7 +5,7 @@
         <b-row>
           <b-col md="12">
             <div class="footer-logo">
-              <img src="~/assets/images/logo.svg">
+              <img src="~/assets/images/logo.svg" alt="Logo">
               <div class="footer-title">
                 <h5>{{$t('footer.logo.title')}}</h5>
                 <p>{{$t('footer.logo.subTitle')}}</p>
@@ -57,13 +57,13 @@
               <h5>{{$t('footer.social.title')}}</h5>
               <a href="https://www.facebook.com/Dentalestheticstenerife/" target="_blank">
                 <div class="footer-facebook-content">
-                  <img src="~/assets/images/icons/facebook-image.png">
+                  <img src="~/assets/images/icons/facebook-image.png" alt="Facebook">
                   <span>Facebook</span>
                 </div>
               </a>
               <a href="https://www.instagram.com/dentalestheticstenerife/" target="_blank">
                 <div class="footer-instagram-content mt-2">
-                  <img src="~/assets/images/icons/instagram-image.png">
+                  <img src="~/assets/images/icons/instagram-image.png" alt="Instagram">
                   <span>Instagram</span>
                 </div>
               </a>

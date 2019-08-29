@@ -14,7 +14,8 @@
           <div class="treatments-content-item">
             <div class="item-image">
               <img class="item-image-first"
-                   src="~/assets/images/home/treatments/dental.svg"/>
+                   src="~/assets/images/home/treatments/dental.svg"
+                   alt="Dental"/>
             </div>
             <div class="item-description">
               <h5>{{$t('home.treatments.dental.title')}}</h5>
@@ -30,7 +31,8 @@
           <div class="treatments-content-item">
             <div class="item-image">
               <img class="item-image-second"
-                   src="~/assets/images/home/treatments/esthetics.svg"/>
+                   src="~/assets/images/home/treatments/esthetics.svg"
+                   alt="Esthetics"/>
             </div>
             <div class="item-description">
               <h5>{{$t('home.treatments.esthetics.title')}}</h5>
@@ -46,7 +48,8 @@
           <div class="treatments-content-item">
             <div class="item-image">
               <img class="item-image-third"
-                   src="~/assets/images/home/treatments/natural-medicine.svg"/>
+                   src="~/assets/images/home/treatments/natural-medicine.svg"
+                   alt="Natural Medicine"/>
             </div>
             <div class="item-description">
               <h5>{{$t('home.treatments.natural.title')}}</h5>

@@ -17,14 +17,14 @@
     "header": {
       "title": "Marítima",
       "subTitle": "Dental & Esthetics",
-      "bottomDescription": "Especialistas en odontología de avanzada junto a la estética como arte aplicada en un amplio rango de tratamientos."
+      "bottomDescription": "Especialistas en odontología de avanzada junto a la estética como arte aplicada en un amplio rango de tratamientos"
     },
     "tenerife": {
       "title": "Bienvenidos a Marítima",
-      "description1": "Ubicados en el corazón de Tenerife, Marítima  Dental & Esthetics comenzó en 2007 como clínica dental. Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología,  complementando con el área de Estética y Medicina Natural, más cercano al concepto de salud integral.",
-      "description2": "Nuestros equipo tiene un extenso conocimiento dentro de cada especialidad. La clínica está respaldada por 25 años de experiencia profesional.",
+      "description1": "Ubicados en el corazón de Tenerife, Marítima  Dental & Esthetics comenzó en 2007 como clínica dental. Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología,  complementando con Estética y Medicina Natural, más cercano al concepto de salud integral.",
+      "description2": "Nuestro equipo tiene un extenso conocimiento dentro de cada especialidad. La clínica está respaldada por 25 años de desarrollo profesional.",
       "description3": "Explore los diferentes tratamientos que ofrecemos y no dude en contactarnos si desea más información.",
-      "description4": "A través de esta página podrá realizar su cita para una primera consulta o tratamiento específico. Estaremos encantados de escuchar su historia personal y encontrar el plan de tratamiento adecuado a sus necesidades.",
+      "description4": "A través de esta página podrá realizar su cita para una primera consulta o tratamiento específico. Estaremos encantados de escuchar su caso personal y encontrar el plan de tratamiento adecuado a sus necesidades.",
       "book": "Reserve una cita"
     },
     "about": {
@@ -39,7 +39,7 @@
       },
       "quality": {
         "title": "Calidad garantizada",
-        "description": "Estamos orgullosos de garantizar que le será ofrecida la solución más adecuada en cada especialidad, ayudando a mejorar su calidad de vida."
+        "description": "Estamos orgullosos de garantizar que le será ofrecida la solución más adecuada en cada especialidad, ayudando así a mejorar su calidad de vida."
       }
     },
     "treatments": {
@@ -69,19 +69,19 @@
     },
     "appointment": {
       "title": "Reserve una cita!",
-      "description1": "Venga a conocernos!  Reserve una cita gratuita con nosotros!",
+      "description1": "Venga a conocernos!  Reserve una cita con nosotros!",
       "description2": "Estamos ubicados a solo 20 minutos del centro económico de Santa Cruz, en Tenerife. Con gusto lo recibiremos en nuestra clínica. Llámenos o visítenos y nos aseguraremos de encontrar el tratamiento adecuado para sus necesidades.",
       "description3": "Nuestra clínica abre:",
-      "description4": "De Lunes a Viernes de 09:00 a 20:00 hs. Sábados previa cita.",
+      "description4": "De Lunes a Viernes de 09:00 a 20:00 hs.",
       "description5": "Avenida Marítima 29, Residencial Naiguatá, bloque A1, locales 2 y 3. Apartado postal 38530 Candelaria, Santa Cruz de Tenerife,  España",
       "description6": "Envíenos un correo electrónico aquí",
       "address": "Dirección",
       "phone": "Teléfonos",
-      "reachOut": "Contáctanos"
+      "reachOut": "Contáctenos"
     }
   },
   "treatments": {
-    "description": "En Maritima, ofrecemos tres tipos de tratamientos. El primero, dental, Segundo, un amplio rango de tratamientos estéticos esenciales y por último, tratamientos complementarios en medicina natural. Encontrará más información acerca de todos ellos aquí.",
+    "description": "En Dental Esthetics ofrecemos una amplia gama de tratamientos en diversas áreas: Odontología, Estética facial y corporal, Fisioterapia, Osteopatía, y Terapias Holísticas.  Todo complementado con productos naturales.",
     "dental": {
       "all": "Dental",
       "title": "Dental"
@@ -112,15 +112,15 @@
     "thankyou": "¡Gracias por su contacto!",
     "reachOut": "En breve lo contactaremos.",
     "appointment": {
-      "title": "Que saber mas",
-      "description1": "Venga a conocernos!  Reserve una cita gratuita con nosotros!",
+      "title": "Reserve una cita!",
+      "description1": "Venga a conocernos!  Reserve una cita con nosotros!",
       "description2": "Estamos ubicados a solo 20 minutos del centro económico de Santa Cruz, en Tenerife. Con gusto lo recibiremos en nuestra clínica. Llámenos o visítenos y nos aseguraremos de encontrar el tratamiento adecuado para sus necesidades.",
       "description3": "Nuestra clínica abre:",
-      "description4": "De Lunes a Viernes de 09:00 a 20:00 hs. Sábados previa cita.",
+      "description4": "De Lunes a Viernes de 09:00 a 20:00 hs.",
       "description5": "Avenida Marítima 29, Residencial Naiguatá, bloque A1, locales 2 y 3. Apartado postal 38530 Candelaria, Santa Cruz de Tenerife,  España",
       "address": "Dirección",
       "phone": "Teléfonos",
-      "reachOut": "Contáctanos"
+      "reachOut": "Contáctenos"
     }
   },
   "footer": {

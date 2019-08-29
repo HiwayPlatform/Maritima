@@ -56,6 +56,17 @@
     beforeDestroy() {
       this.$bus.$off('set:active-slide');
     },
+    layout: 'default',
+    head: {
+      title: 'News',
+      meta: [
+        {
+          hid: 'Maritima',
+          name: 'Maritima',
+          content: 'Maritima Dental & Esthetics'
+        }
+      ]
+    }
   }
 </script>
 

@@ -12,7 +12,9 @@
           <p>{{$t('home.header.bottomDescription')}}</p>
         </div>
         <div class="header-arrow_wrap">
-          <img class="header-arrow" src="~/assets/images/icons/down-arrow.svg"/>
+          <img class="header-arrow"
+               src="~/assets/images/icons/down-arrow.svg"
+               alt="Down Arrow"/>
         </div>
       </div>
     </div>

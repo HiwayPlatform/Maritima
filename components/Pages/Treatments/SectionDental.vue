@@ -7,7 +7,7 @@
                :key="index">
           <div class="treatments-content-item">
             <div class="item-image">
-              <img src="~/assets/images/treatments/dental.svg"/>
+              <img src="~/assets/images/treatments/dental.svg" alt="Dental"/>
             </div>
             <div class="item-description">
               <h5>{{treatment['contents'][$i18n.locale]['title']}}</h5>

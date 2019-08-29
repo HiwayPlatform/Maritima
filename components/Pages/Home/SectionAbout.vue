@@ -14,7 +14,8 @@
             <div class="about-content-item">
               <div class="item-image ">
                 <img class="image-first"
-                     src="~/assets/images/home/about/personal-approach.svg"/>
+                     src="~/assets/images/home/about/personal-approach.svg"
+                     alt="Personal Approach"/>
               </div>
               <div class="item-description">
                 <h5>{{$t('home.about.approach.title')}}</h5>
@@ -26,7 +27,8 @@
             <div class="about-content-item">
               <div class="item-image ">
                 <img class="image-second"
-                     src="~/assets/images/home/about/broad-range.svg"/>
+                     src="~/assets/images/home/about/broad-range.svg"
+                     alt="Broad Range"/>
               </div>
               <div class="item-description">
                 <h5>{{$t('home.about.treatments.title')}}</h5>
@@ -38,7 +40,8 @@
             <div class="about-content-item">
               <div class="item-image">
                 <img class="image-third"
-                     src="~/assets/images/home/about/first-certificate.svg"/>
+                     src="~/assets/images/home/about/first-certificate.svg"
+                     alt="First Certificate"/>
               </div>
               <div class="item-description">
                 <h5>{{$t('home.about.quality.title')}}</h5>

@@ -10,7 +10,7 @@
                :key="index">
           <div class="shop-content-item">
             <div class="item-image">
-              <img :src="product['image']"/>
+              <img :src="product['image']" alt="Product Image"/>
             </div>
             <div class="item-description">
               <div v-html="product['contents'][$i18n.locale]['description']"></div>

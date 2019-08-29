@@ -14,11 +14,16 @@
             <p>{{$t('home.appointment.description2')}}</p>
             <p>{{$t('home.appointment.description3')}}</p>
             <p class="text-center">{{$t('home.appointment.description4')}}</p>
+            <p>
+              <span>{{$t('home.appointment.address')}}:&nbsp;&nbsp;</span>
+              <strong>{{$t('home.appointment.description5')}}</strong>
+            </p>
             <p class="d-flex">
-              <span>{{$t('home.appointment.address')}}</span>
-              <strong>: {{$t('home.appointment.description5')}}</strong></p>
-            <p>{{$t('home.appointment.phone')}}
-              : <strong>+34 822 775 133</strong>, <strong>+34 674 354 930</strong>
+              <span>{{$t('home.appointment.phone')}}:&nbsp;&nbsp;</span>
+              <span>
+                <strong> +34 822 775 133</strong><br>
+                <strong> +34 674 354 930</strong>
+              </span>
             </p>
             <p>{{$t('home.appointment.description6')}}</p>
           </div>
