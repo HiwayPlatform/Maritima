@@ -15,7 +15,7 @@
   },
   "home": {
     "header": {
-      "title": "Maritima",
+      "title": "Marítima",
       "subTitle": "Dental & Esthetics",
       "bottomDescription": "Especialistas en odontología de avanzada junto a la estética como arte aplicada en un amplio rango de tratamientos."
     },
@@ -83,15 +83,15 @@
   "treatments": {
     "description": "En Maritima, ofrecemos tres tipos de tratamientos. El primero, dental, Segundo, un amplio rango de tratamientos estéticos esenciales y por último, tratamientos complementarios en medicina natural. Encontrará más información acerca de todos ellos aquí.",
     "dental": {
-      "all": "Dentals",
+      "all": "Dental",
       "title": "Dental"
     },
     "esthetics": {
-      "all": "Estéticas",
+      "all": "Estética",
       "title": "Estética"
     },
     "natural": {
-      "all": "Medicina Naturals",
+      "all": "Medicina Natural",
       "title": "Medicina Natural"
     },
     "others": "Otros tratamientos en la categoría"
