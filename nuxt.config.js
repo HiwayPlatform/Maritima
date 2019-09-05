@@ -27,8 +27,7 @@ module.exports = {
   /*
   ** Router
   */
-  router: {
-  },
+  router: {},
   /*
   ** Plugins to load before mounting the App
   */
@@ -50,8 +49,7 @@ module.exports = {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     ['@nuxtjs/axios', {
-      baseURL: process.env.NODE_ENV === 'development' ?
-        'http://local.dental.com/wp-json/dental' : 'https://dentalesthetics.es/wp-json/dental'
+      baseURL: process.env.NODE_ENV === 'development' ? 'http://local.dental.com/wp-json/dental' : '/wp-json/dental'
     }]
   ],
   /*
