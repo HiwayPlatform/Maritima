@@ -1,6 +1,6 @@
 # mde
 
-> My impeccable Nuxt.js project
+> Maritimadental
 
 ## Build Setup
 
