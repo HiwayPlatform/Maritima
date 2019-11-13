@@ -61,7 +61,7 @@
                   <span>Facebook</span>
                 </div>
               </a>
-              <a href="https://www.instagram.com/dentalestheticstenerife/" target="_blank">
+              <a href="https://www.instagram.com/maritima_dentalesthetics/?igshid=tihibqesdoi6" target="_blank">
                 <div class="footer-instagram-content mt-2">
                   <img src="~/assets/images/icons/instagram-image.png" alt="Instagram">
                   <span>Instagram</span>

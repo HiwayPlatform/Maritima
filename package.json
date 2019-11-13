@@ -1,7 +1,6 @@
 {
   "name": "mde",
   "version": "1.0.0",
-  "description": "My impeccable Nuxt.js project",
   "author": "xinhonglee ",
   "private": true,
   "scripts": {
