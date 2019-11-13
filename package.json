@@ -1,6 +1,7 @@
 {
   "name": "mde",
   "version": "1.0.0",
+  "description": "Maritimadental",
   "author": "xinhonglee ",
   "private": true,
   "scripts": {
