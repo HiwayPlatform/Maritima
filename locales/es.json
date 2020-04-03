@@ -21,7 +21,7 @@
     },
     "tenerife": {
       "title": "Bienvenidos a Marítima",
-      "description1": "Ubicados en el corazón de Tenerife, Marítima  Dental & Esthetics comenzó en 2007 como clínica dental. Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología,  complementando con Estética y Medicina Natural, más cercano al concepto de salud integral.",
+      "description1": "Ubicados en el corazón de Tenerife, Marítima  Dental & Esthetics comenzó en 2007 como clínica dental. Desde entonces ha experimentado un rápido crecimiento en el área clínica de Odontología,  complementando con Estética y Bienestar, más cercano al concepto de salud integral.",
       "description2": "Nuestro equipo tiene un extenso conocimiento dentro de cada especialidad. La clínica está respaldada por 25 años de desarrollo profesional.",
       "description3": "Explore los diferentes tratamientos que ofrecemos y no dude en contactarnos si desea más información.",
       "description4": "A través de esta página podrá realizar su cita para una primera consulta o tratamiento específico. Estaremos encantados de escuchar su caso personal y encontrar el plan de tratamiento adecuado a sus necesidades.",
@@ -35,7 +35,7 @@
       },
       "treatments": {
         "title": "Amplio rango de tratamientos",
-        "description": "Desde todos los servicios en Odontología, tanto general como especializada,  Estética facial y Medicina Natural, estamos para ayudar. "
+        "description": "Desde todos los servicios en Odontología, tanto general como especializada, Estética facial y Bienestar, estamos para ayudar. "
       },
       "quality": {
         "title": "Calidad garantizada",
@@ -91,8 +91,8 @@
       "title": "Estética"
     },
     "natural": {
-      "all": "Medicina Natural",
-      "title": "Medicina Natural"
+      "all": "Bienestar",
+      "title": "Bienestar"
     },
     "others": "Otros tratamientos en la categoría"
   },
@@ -147,4 +147,3 @@
       "title": "Redes sociales"
     }
   }
-}

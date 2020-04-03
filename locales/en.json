@@ -21,10 +21,10 @@
     },
     "tenerife": {
       "title": "Welcome to Maritima",
-      "description1": "Located in the heart of Tenerife, Maritima began in 2007 as a dental clinic. Since then Maritima has quickly grown towards an all-encompassing clinic in terms of Dental, Esthetics and Natural Medicine.",
+      "description1": "Located in the heart of Tenerife, Maritima began in 2007 as a dental clinic. Since then Maritima has quickly grown towards an all-encompassing clinic in terms of Dental, Esthetics and Wellness.",
       "description2": "Built on twenty-five years of experience, Maritima hosts an extensive amount of knowledge within its industry.",
       "description3": "Take a look at the different treatments that we offer and feel free to reach out to us. ",
-      "description4": "With the button below, you’ll be able to book in a specific treatment or a first consultation. We are more than happy to hear your personal story and find the right personal route for your specific needs.",
+      "description4": "With the button below, you'll be able to book in a specific treatment or a first consultation. We are more than happy to hear your personal story and find the right personal route for your specific needs.",
       "book": "Book an appointment"
     },
     "about": {
@@ -35,7 +35,7 @@
       },
       "treatments": {
         "title": "Wide range of treatments",
-        "description": "From Dental services to Esthetics, to Natural Medicine, we are here to help you out."
+        "description": "From Dental services to Esthetics, to Wellness, we are here to help you out."
       },
       "quality": {
         "title": "Guaranteed Quality",
@@ -44,7 +44,7 @@
     },
     "treatments": {
       "title": "Treatments",
-      "description": "At Maritima, we offer three kinds of treatments. The first being Dental care. Secondly, a range of state of the art Esthetics treatments and lastly, our diverse variety of Natural Medicines.",
+      "description": "At Maritima Dental Esthetics, we offer treatments in diverse areas: Dentistry, Facial and Body Esthetics, Osteopathy, Nutrition and Wellness.",
       "dental": {
         "title": "Dental",
         "description": "From simple check-ups to more complex restorative treatments we provide professional dental care and treatments."
@@ -70,7 +70,7 @@
     "appointment": {
       "title": "Book an appointment",
       "description1": "Come say hi! Book a free appointment with us!",
-      "description2": "Located just 20 minutes away from Tenerife's economic centre Santa Cruz, we are more than happy to welcome you in our clinic. Give us a call, and we’ll make sure to find a perfect fit for your needs.",
+      "description2": "Located just 20 minutes away from Tenerife's economic centre Santa Cruz, we are more than happy to welcome you in our clinic. Give us a call, and we'll make sure to find a perfect fit for your needs.",
       "description3": "Maritima Clinic is open from",
       "description4": "Monday to Friday from 09:00 to 20:00",
       "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
@@ -81,7 +81,7 @@
     }
   },
   "treatments": {
-    "description": "At Maritima, we offer three kinds of treatments. The first being Dental care. Secondly, a range of state of the art Esthetics treatments and lastly, our diverse variety of Natural Medicines. You’ll find more information regarding those specific treatments below.",
+    "description": "At Maritima Dental Esthetics, we offer treatments in diverse areas: Dentistry, Facial and Body Esthetics, Osteopathy, Nutrition and Wellness. You'll find more information regarding those specific treatments below.",
     "dental": {
       "all": "All Dentals",
       "title": "Dental"
@@ -91,8 +91,8 @@
       "title": "Esthetics"
     },
     "natural": {
-      "all": "All Natural Medicines",
-      "title": "Natural Medicine"
+      "all": "Wellness",
+      "title": "Wellness"
     },
     "others": "Other Treatments in category"
   },
@@ -115,7 +115,7 @@
     "appointment": {
       "title": "Book an appointment",
       "description1": "Come say hi! Book a free appointment with us!",
-      "description2": "Located just 20 minutes away from Tenerife's economic centre Santa Cruz, we are more than happy to welcome you in our clinic. Give us a call, and we’ll make sure to find a perfect fit for your needs.",
+      "description2": "Located just 20 minutes away from Tenerife's economic centre Santa Cruz, we are more than happy to welcome you in our clinic. Give us a call, and we'll make sure to find a perfect fit for your needs.",
       "description3": "Maritima Clinic is open from:",
       "description4": "Monday to Friday from 09:00 to 20:00",
       "description5": "Avenida Marítima 29, 38530 Candelaria, Santa Cruz de Tenerife, Spain",
