@@ -44,7 +44,7 @@
     },
     "treatments": {
       "title": "Tratamientos",
-      "description": "En Dental Esthetics ofrecemos una amplia gama de tratamientos en diversas áreas: Odontología,  Estética facial y corporal, Fisioterapia, Osteopatía, y Terapias Holísticas.  Todo complementado con productos naturales.",
+      "description": "Maritima Dental Esthetics ofrecemos una amplia gama de tratamientos en diversas áreas: Odontología, Estética facial y corporal, Osteopatía, Nutrición y Bienestar en general.",
       "dental": {
         "title": "Odontología",
         "description": "Desde la prevención a los más completos tratamientos restauradores, utilizamos las últimas tecnologías."
@@ -81,7 +81,7 @@
     }
   },
   "treatments": {
-    "description": "Maritima Dental Esthetics ofrecemos una amplia gama de tratamientos en diversas áreas: Odontología, Estética facial y corporal, Osteopatía, Nutrición y Bienestar en general.",
+    "description": "En Dental Esthetics ofrecemos una amplia gama de tratamientos en diversas áreas: Odontología, Estética facial y corporal, Fisioterapia, Osteopatía, y Terapias Holísticas. Todo complementado con productos naturales.",
     "dental": {
       "all": "Dental",
       "title": "Dental"
