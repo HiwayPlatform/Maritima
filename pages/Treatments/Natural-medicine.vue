@@ -28,7 +28,7 @@
     },
     methods: {
       async loadData() {
-        const result = await this.$axios.$get('/treatments?page=1&size=-1&category=natural-medicine');
+        const result = await this.$axios.$get('/treatments?page=1&size=-1&category=wellness');
         this.treatments = result.data;
       }
     },
