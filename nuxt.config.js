@@ -50,7 +50,7 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     ['@nuxtjs/axios', {
       baseURL: process.env.NODE_ENV === 'development' ? 'http://local.dental.com/wp-json/dental' : '/wp-json/dental'
-    }]
+    }],
   ],
   /*
   ** Axios module configuration
@@ -63,6 +63,12 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    buildModules: [
+      '@nuxtjs/gtm',
+    ],
+    gtm: {
+      id: 'GTM-M2QFRLK'
+    },
     /*
     ** You can extend webpack config here
     */
