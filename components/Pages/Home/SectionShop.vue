@@ -34,7 +34,7 @@
         <b-col lg="3" md="6"><loading-spinner/></b-col>
       </b-row>
       <div class="shop-more">
-        <a href="https://webshop.dentalesthetics.es/"
+        <a href="https://shop.maritimadental.com/"
            class="button-extend-normal-round">{{$t('home.shop.shopMore')}}</a>
       </div>
     </div>

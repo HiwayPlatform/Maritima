@@ -32,7 +32,7 @@
                 to="/news"
                 class="nav-link">{{$t('footer.about.news')}}
               </nuxt-link>
-              <a href="https://webshop.dentalesthetics.es/"
+              <a href="https://shop.maritimadental.com/"
                  class="nav-link">{{$t('footer.about.webshop')}}</a>
               <nuxt-link
                 active-class="active"

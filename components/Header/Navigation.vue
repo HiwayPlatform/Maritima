@@ -33,7 +33,7 @@
                 class="nav-link">{{$t('menu.news')}}</nuxt-link>
             </li>
             <li class="nav-item">
-              <a href="https://webshop.dentalesthetics.es/"
+              <a href="https://shop.maritimadental.com/"
                  class="nav-link">{{$t('menu.webshop')}}</a>
             </li>
             <li class="nav-item">
